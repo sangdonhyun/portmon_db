@@ -1,0 +1,1 @@
+insert into monitor.perform_stg (flag_1,flag_3,flag_2,flag_4,ins_date,cols_value_avg,cols_max_date,device_type,check_date,mdb_key,cols_value_max) values ('000000000ALJ2503G08G', '', 'CRC', '20', '2020-02-13', 0.0, '08:00:08', 'brocade', '2020-02-13 08', '000000000ALJ2503G08G::CRC', 0.0);‚r‚n

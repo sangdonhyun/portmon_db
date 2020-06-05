@@ -1,0 +1,2677 @@
+###############################################################################
+#                                                                             #
+#   Description  : SAN Switch Port Monitor                                    #
+#   HOSTNAME     : 000000000AFY1931L008                                       #
+#   CONNECT IP   : 10.10.10.20                                                #
+#   EXECUTE DATE : 2020-03-13 21:13:27                                        #
+#   VERSION      : 1.1.1                                                      #
+#                                                                             #
+###############################################################################
+
+###***date***###
+Fri Mar 13 12:13:28 UTC 2020
+###***switchshow***###
+switchName:	Fsw_01
+switchType:	71.2
+switchState:	Online   
+switchMode:	Native
+switchRole:	Principal
+switchDomain:	1
+switchId:	fffc01
+switchWwn:	10:00:00:05:1e:dd:b3:c1
+zoning:		ON (SAN1_config)
+switchBeacon:	OFF
+
+Area Port Media Speed State     Proto
+=====================================
+  0   0   id    N8   Online           F-Port  10:00:00:90:fa:0b:b9:e8 
+  1   1   id    N8   Online           F-Port  10:00:00:00:c9:e7:31:e8 
+  2   2   id    N8   No_Light         
+  3   3   id    N8   No_Light         Disabled
+  4   4   id    N8   Online           F-Port  50:05:07:68:02:15:c0:81 
+  5   5   id    N8   Online           F-Port  50:05:07:68:02:15:c0:82 
+  6   6   id    N2   Online           F-Port  50:06:01:68:30:20:48:53 
+  7   7   id    N2   Online           F-Port  50:06:01:60:30:20:48:53 
+  8   8   id    N8   No_Light         
+  9   9   id    N8   No_Light         
+ 10  10   id    N8   No_Light         
+ 11  11   id    N8   No_Light         
+ 12  12   id    N8   No_Light         
+ 13  13   id    N8   No_Light         
+ 14  14   id    N8   No_Light         
+ 15  15   id    N8   No_Light         
+ 16  16   --    N8   No_Module        (No POD License) Disabled
+ 17  17   --    N8   No_Module        (No POD License) Disabled
+ 18  18   --    N8   No_Module        (No POD License) Disabled
+ 19  19   --    N8   No_Module        (No POD License) Disabled
+ 20  20   --    N8   No_Module        (No POD License) Disabled
+ 21  21   --    N8   No_Module        (No POD License) Disabled
+ 22  22   --    N8   No_Module        (No POD License) Disabled
+ 23  23   --    N8   No_Module        (No POD License) Disabled
+###***chassisshow***###
+
+POWER SUPPLY  Unit: 1	
+Time Awake:            	349 days
+
+FAN  Unit: 1	
+Time Awake:            	349 days
+
+FAN  Unit: 2	
+Time Awake:            	349 days
+
+FAN  Unit: 3	
+Time Awake:            	349 days
+
+CHASSIS/WWN  Unit: 1
+Header Version:       	2
+Factory Part Num:      	40-1000165-14
+Factory Serial Num:    	ALJ0602F04S
+Manufacture:           	Day: 27  Month: 12  Year: 2009
+Update:                	Day: 13  Month:  3  Year: 2020
+Time Alive:            	1213 days
+Time Awake:            	349 days
+ID:           		BRD0000CA
+Part Num:     		SLKWRM0000300
+Serial Num:   		1002ALJ5EM
+
+###***porterrshow***###
+        frames  enc  crc  crc   too  too  bad  enc disc link loss loss frjt fbsy
+       tx   rx   in  err g_eof shrt long  eof  out   c3 fail sync  sig
+     ============================================================================
+  0:  173m 2.3g   0    0    0    0    0    0  2.9k   0    0   35   36    0    0 
+  1:  3.5g 3.1g   0    0    0    0    0    0   62    0    0    1    2    0    0 
+  2:    0    0    0    0    0    0    0    0    0    0    0    0    2    0    0 
+  3:    0    0    0    0    0    0    0    0    0    0    0    0    2    0    0 
+  4:  705m 529m   0    0    0    0    0    0  2.0m  13    0    4    6    0    0 
+  5:  954m 676m   0    0    0    0    0    0  625   21    0    3    4    0    0 
+  6:  3.9g 2.5g   0    0    0    0    0    0   20   13    0    1    2    0    0 
+  7:   17m  26m   0    0    0    0    0    0   38   12    0    1    2    0    0 
+  8:    0    0    0    0    0    0    0    0    0    0    0    0    2    0    0 
+  9:    0    0    0    0    0    0    0    0    0    0    0    0    2    0    0 
+ 10:    0    0    0    0    0    0    0    0    0    0    0    0    2    0    0 
+ 11:    0    0    0    0    0    0    0    0    0    0    0    0    2    0    0 
+ 12:    0    0    0    0    0    0    0    0    0    0    0    0    2    0    0 
+ 13:    0    0    0    0    0    0    0    0    0    0    0    0    2    0    0 
+ 14:    0    0    0    0    0    0    0    0    0    0    0    0    2    0    0 
+ 15:    0    0    0    0    0    0    0    0    0    0    0    0    2    0    0 
+ 16:    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+ 17:    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+ 18:    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+ 19:    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+ 20:    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+ 21:    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+ 22:    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+ 23:    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+###***sfpshow -all***###
+
+=============
+Port  0:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF111180000106 
+Date Code:   110424  
+Temperature: 30 Centigrade
+Current:     6.708 mAmps
+Voltage:     3287.5 mVolts
+RX Power:    -4.6  dBm (349.0 uWatts)
+TX Power:    -3.4  dBm (462.1 uWatts)
+
+=============
+Port  1:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF11118000031K 
+Date Code:   110424  
+Temperature: 32 Centigrade
+Current:     6.818 mAmps
+Voltage:     3282.1 mVolts
+RX Power:    -2.4  dBm (569.6 uWatts)
+TX Power:    -3.3  dBm (468.1 uWatts)
+
+=============
+Port  2:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF111180000150 
+Date Code:   110424  
+Temperature: 32 Centigrade
+Current:     6.716 mAmps
+Voltage:     3285.2 mVolts
+RX Power:    -40.0  dBm (0.1 uWatts)
+TX Power:    -3.3  dBm (469.4 uWatts)
+
+=============
+Port  3:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF11118000070K 
+Date Code:   110424  
+Temperature: 27 Centigrade
+Current:     0.232 mAmps
+Voltage:     3288.2 mVolts
+RX Power:    -inf  dBm (0.0 uWatts)
+TX Power:    -28.0  dBm (1.6 uWatts)
+
+=============
+Port  4:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF111180000153 
+Date Code:   110424  
+Temperature: 30 Centigrade
+Current:     6.902 mAmps
+Voltage:     3285.9 mVolts
+RX Power:    -3.4  dBm (461.5 uWatts)
+TX Power:    -3.3  dBm (466.2 uWatts)
+
+=============
+Port  5:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF11118000069C 
+Date Code:   110424  
+Temperature: 30 Centigrade
+Current:     5.390 mAmps
+Voltage:     3286.3 mVolts
+RX Power:    -3.1  dBm (489.7 uWatts)
+TX Power:    -3.3  dBm (468.0 uWatts)
+
+=============
+Port  6:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF11118000089G 
+Date Code:   110424  
+Temperature: 29 Centigrade
+Current:     6.082 mAmps
+Voltage:     3288.7 mVolts
+RX Power:    -6.3  dBm (236.6 uWatts)
+TX Power:    -3.2  dBm (480.8 uWatts)
+
+=============
+Port  7:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF11118000007L 
+Date Code:   110424  
+Temperature: 27 Centigrade
+Current:     6.632 mAmps
+Voltage:     3286.0 mVolts
+RX Power:    -6.9  dBm (204.3 uWatts)
+TX Power:    -3.3  dBm (466.4 uWatts)
+
+=============
+Port  8:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF1111800003VG 
+Date Code:   110424  
+Temperature: 29 Centigrade
+Current:     6.956 mAmps
+Voltage:     3289.5 mVolts
+RX Power:    -inf  dBm (0.0 uWatts)
+TX Power:    -3.3  dBm (463.2 uWatts)
+
+=============
+Port  9:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF1111800008A4 
+Date Code:   110424  
+Temperature: 30 Centigrade
+Current:     6.204 mAmps
+Voltage:     3283.9 mVolts
+RX Power:    -inf  dBm (0.0 uWatts)
+TX Power:    -3.3  dBm (465.8 uWatts)
+
+=============
+Port 10:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF111180000CF9 
+Date Code:   110425  
+Temperature: 28 Centigrade
+Current:     5.590 mAmps
+Voltage:     3288.8 mVolts
+RX Power:    -34.0  dBm (0.4 uWatts)
+TX Power:    -3.3  dBm (467.0 uWatts)
+
+=============
+Port 11:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF111170000GMF 
+Date Code:   110421  
+Temperature: 27 Centigrade
+Current:     6.994 mAmps
+Voltage:     3291.4 mVolts
+RX Power:    -inf  dBm (0.0 uWatts)
+TX Power:    -3.3  dBm (463.0 uWatts)
+
+=============
+Port 12:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF111180000CF4 
+Date Code:   110425  
+Temperature: 28 Centigrade
+Current:     8.798 mAmps
+Voltage:     3283.7 mVolts
+RX Power:    -inf  dBm (0.0 uWatts)
+TX Power:    -3.3  dBm (470.3 uWatts)
+
+=============
+Port 13:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF1111800000P7 
+Date Code:   110424  
+Temperature: 27 Centigrade
+Current:     5.772 mAmps
+Voltage:     3289.6 mVolts
+RX Power:    -inf  dBm (0.0 uWatts)
+TX Power:    -3.4  dBm (461.8 uWatts)
+
+=============
+Port 14:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF11118000013D 
+Date Code:   110424  
+Temperature: 26 Centigrade
+Current:     6.272 mAmps
+Voltage:     3287.8 mVolts
+RX Power:    -35.2  dBm (0.3 uWatts)
+TX Power:    -3.3  dBm (467.0 uWatts)
+
+=============
+Port 15:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF111170000CY9 
+Date Code:   110424  
+Temperature: 24 Centigrade
+Current:     6.404 mAmps
+Voltage:     3291.4 mVolts
+RX Power:    -inf  dBm (0.0 uWatts)
+TX Power:    -3.3  dBm (463.5 uWatts)
+
+=============
+Port 16:
+=============
+port 16: can't get serial data
+
+=============
+Port 17:
+=============
+port 17: can't get serial data
+
+=============
+Port 18:
+=============
+port 18: can't get serial data
+
+=============
+Port 19:
+=============
+port 19: can't get serial data
+
+=============
+Port 20:
+=============
+port 20: can't get serial data
+
+=============
+Port 21:
+=============
+port 21: can't get serial data
+
+=============
+Port 22:
+=============
+port 22: can't get serial data
+
+=============
+Port 23:
+=============
+port 23: can't get serial data
+###***errdump***###
+Fabric OS: v6.2.0c
+2020/03/03-21:32:32, [SEC-1203], 158891, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:33:34, [SEC-1203], 158892, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:34:35, [SEC-1203], 158893, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:35:37, [SEC-1203], 158894, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:36:39, [SEC-1203], 158895, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:37:41, [SEC-1203], 158896, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:38:42, [SEC-1203], 158897, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:39:45, [SEC-1203], 158898, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:40:46, [SEC-1203], 158899, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:41:48, [SEC-1203], 158900, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:42:50, [SEC-1203], 158901, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:43:52, [SEC-1203], 158902, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:44:53, [SEC-1203], 158903, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:45:55, [SEC-1203], 158904, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:46:57, [SEC-1203], 158905, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:47:59, [SEC-1203], 158906, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:49:00, [SEC-1203], 158907, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:50:02, [SEC-1203], 158908, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:51:04, [SEC-1203], 158909, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:52:06, [SEC-1203], 158910, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:53:09, [SEC-1203], 158911, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:54:11, [SEC-1203], 158912, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:55:13, [SEC-1203], 158913, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:56:14, [SEC-1203], 158914, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:57:16, [SEC-1203], 158915, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:58:18, [SEC-1203], 158916, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-21:59:20, [SEC-1203], 158917, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:00:21, [SEC-1203], 158918, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:01:23, [SEC-1203], 158919, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:02:26, [SEC-1203], 158920, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:03:27, [SEC-1203], 158921, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:04:30, [SEC-1203], 158922, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:05:33, [SEC-1203], 158923, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:06:36, [SEC-1203], 158924, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:07:38, [SEC-1203], 158925, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:08:40, [SEC-1203], 158926, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:09:41, [SEC-1203], 158927, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:10:43, [SEC-1203], 158928, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:11:44, [SEC-1203], 158929, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:12:46, [SEC-1203], 158930, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:13:48, [SEC-1203], 158931, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:14:50, [SEC-1203], 158932, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:15:52, [SEC-1203], 158933, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:16:54, [SEC-1203], 158934, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:17:55, [SEC-1203], 158935, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:18:57, [SEC-1203], 158936, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:19:59, [SEC-1203], 158937, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:21:01, [SEC-1203], 158938, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:22:02, [SEC-1203], 158939, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:23:04, [SEC-1203], 158940, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:24:06, [SEC-1203], 158941, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:25:07, [SEC-1203], 158942, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:26:09, [SEC-1203], 158943, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:27:11, [SEC-1203], 158944, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:28:13, [SEC-1203], 158945, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:29:14, [SEC-1203], 158946, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:30:16, [SEC-1203], 158947, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:31:18, [SEC-1203], 158948, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:32:20, [SEC-1203], 158949, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:33:22, [SEC-1203], 158950, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:34:23, [SEC-1203], 158951, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:35:25, [SEC-1203], 158952, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:36:26, [SEC-1203], 158953, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:37:33, [SEC-1203], 158954, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:38:38, [SEC-1203], 158955, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:39:39, [SEC-1203], 158956, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:40:42, [SEC-1203], 158957, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:41:44, [SEC-1203], 158958, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:42:45, [SEC-1203], 158959, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:43:47, [SEC-1203], 158960, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:44:49, [SEC-1203], 158961, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:45:50, [SEC-1203], 158962, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:46:52, [SEC-1203], 158963, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:47:54, [SEC-1203], 158964, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:48:56, [SEC-1203], 158965, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:49:58, [SEC-1203], 158966, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:51:00, [SEC-1203], 158967, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:52:04, [SEC-1203], 158968, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:53:05, [SEC-1203], 158969, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:54:07, [SEC-1203], 158970, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:55:09, [SEC-1203], 158971, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:56:11, [SEC-1203], 158972, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:57:13, [SEC-1203], 158973, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:58:14, [SEC-1203], 158974, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-22:59:16, [SEC-1203], 158975, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:00:17, [SEC-1203], 158976, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:01:19, [SEC-1203], 158977, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:02:20, [SEC-1203], 158978, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:03:22, [SEC-1203], 158979, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:04:24, [SEC-1203], 158980, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:05:26, [SEC-1203], 158981, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:06:30, [SEC-1203], 158982, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:07:32, [SEC-1203], 158983, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:08:33, [SEC-1203], 158984, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:09:36, [SEC-1203], 158985, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:10:37, [SEC-1203], 158986, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:11:39, [SEC-1203], 158987, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:12:41, [SEC-1203], 158988, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:13:42, [SEC-1203], 158989, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:14:44, [SEC-1203], 158990, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:15:46, [SEC-1203], 158991, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:16:48, [SEC-1203], 158992, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:17:50, [SEC-1203], 158993, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:18:51, [SEC-1203], 158994, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:19:53, [SEC-1203], 158995, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:20:54, [SEC-1203], 158996, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:21:56, [SEC-1203], 158997, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:22:58, [SEC-1203], 158998, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:24:00, [SEC-1203], 158999, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:25:02, [SEC-1203], 159000, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:26:04, [SEC-1203], 159001, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:27:06, [SEC-1203], 159002, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:28:07, [SEC-1203], 159003, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:29:09, [SEC-1203], 159004, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:30:11, [SEC-1203], 159005, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:31:13, [SEC-1203], 159006, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:32:15, [SEC-1203], 159007, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:33:17, [SEC-1203], 159008, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:34:19, [SEC-1203], 159009, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:35:21, [SEC-1203], 159010, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:36:22, [SEC-1203], 159011, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:37:24, [SEC-1203], 159012, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:38:26, [SEC-1203], 159013, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:39:28, [SEC-1203], 159014, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:40:29, [SEC-1203], 159015, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:41:31, [SEC-1203], 159016, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:42:33, [SEC-1203], 159017, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:43:35, [SEC-1203], 159018, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:44:38, [SEC-1203], 159019, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:45:40, [SEC-1203], 159020, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:46:42, [SEC-1203], 159021, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:47:43, [SEC-1203], 159022, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:48:45, [SEC-1203], 159023, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:49:47, [SEC-1203], 159024, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:50:50, [SEC-1203], 159025, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:51:51, [SEC-1203], 159026, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:52:53, [SEC-1203], 159027, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:53:55, [SEC-1203], 159028, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:54:57, [SEC-1203], 159029, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:55:58, [SEC-1203], 159030, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:57:00, [SEC-1203], 159031, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:58:02, [SEC-1203], 159032, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/03-23:59:03, [SEC-1203], 159033, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:00:05, [SEC-1203], 159034, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:01:09, [SEC-1203], 159035, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:02:13, [SEC-1203], 159036, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:03:14, [SEC-1203], 159037, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:04:17, [SEC-1203], 159038, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:05:19, [SEC-1203], 159039, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:06:21, [SEC-1203], 159040, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:07:23, [SEC-1203], 159041, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:08:24, [SEC-1203], 159042, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:09:26, [SEC-1203], 159043, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:10:28, [SEC-1203], 159044, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:11:30, [SEC-1203], 159045, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:12:31, [SEC-1203], 159046, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:13:33, [SEC-1203], 159047, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:14:36, [SEC-1203], 159048, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:15:38, [SEC-1203], 159049, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:16:40, [SEC-1203], 159050, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:17:41, [SEC-1203], 159051, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:18:43, [SEC-1203], 159052, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:19:45, [SEC-1203], 159053, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:20:47, [SEC-1203], 159054, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:21:49, [SEC-1203], 159055, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:22:51, [SEC-1203], 159056, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:23:52, [SEC-1203], 159057, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:24:54, [SEC-1203], 159058, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:25:56, [SEC-1203], 159059, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:26:57, [SEC-1203], 159060, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:27:59, [SEC-1203], 159061, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:29:01, [SEC-1203], 159062, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:30:03, [SEC-1203], 159063, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:31:05, [SEC-1203], 159064, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:32:06, [SEC-1203], 159065, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:33:08, [SEC-1203], 159066, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:34:10, [SEC-1203], 159067, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:35:12, [SEC-1203], 159068, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:36:13, [SEC-1203], 159069, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:37:16, [SEC-1203], 159070, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:38:18, [SEC-1203], 159071, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:39:20, [SEC-1203], 159072, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:40:22, [SEC-1203], 159073, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:41:24, [SEC-1203], 159074, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:42:26, [SEC-1203], 159075, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:43:28, [SEC-1203], 159076, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:44:29, [SEC-1203], 159077, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:45:31, [SEC-1203], 159078, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:46:33, [SEC-1203], 159079, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:47:35, [SEC-1203], 159080, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:48:36, [SEC-1203], 159081, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:49:38, [SEC-1203], 159082, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:50:40, [SEC-1203], 159083, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:51:41, [SEC-1203], 159084, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:52:43, [SEC-1203], 159085, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:53:45, [SEC-1203], 159086, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:54:47, [SEC-1203], 159087, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:55:48, [SEC-1203], 159088, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:56:50, [SEC-1203], 159089, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:57:52, [SEC-1203], 159090, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:58:53, [SEC-1203], 159091, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-00:59:55, [SEC-1203], 159092, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:00:57, [SEC-1203], 159093, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:01:59, [SEC-1203], 159094, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:03:01, [SEC-1203], 159095, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:04:02, [SEC-1203], 159096, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:05:04, [SEC-1203], 159097, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:06:06, [SEC-1203], 159098, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:07:08, [SEC-1203], 159099, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:08:10, [SEC-1203], 159100, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:09:12, [SEC-1203], 159101, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:10:13, [SEC-1203], 159102, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:11:15, [SEC-1203], 159103, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:12:17, [SEC-1203], 159104, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:13:19, [SEC-1203], 159105, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:14:20, [SEC-1203], 159106, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:15:22, [SEC-1203], 159107, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:16:24, [SEC-1203], 159108, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:17:26, [SEC-1203], 159109, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:18:27, [SEC-1203], 159110, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:19:29, [SEC-1203], 159111, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:20:31, [SEC-1203], 159112, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:21:32, [SEC-1203], 159113, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:22:34, [SEC-1203], 159114, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:23:36, [SEC-1203], 159115, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:24:38, [SEC-1203], 159116, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:25:39, [SEC-1203], 159117, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:26:41, [SEC-1203], 159118, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:27:43, [SEC-1203], 159119, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:28:45, [SEC-1203], 159120, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:29:47, [SEC-1203], 159121, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:30:48, [SEC-1203], 159122, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:31:50, [SEC-1203], 159123, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:32:52, [SEC-1203], 159124, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:33:54, [SEC-1203], 159125, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:34:56, [SEC-1203], 159126, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:35:59, [SEC-1203], 159127, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:37:01, [SEC-1203], 159128, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:38:02, [SEC-1203], 159129, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:39:05, [SEC-1203], 159130, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:40:06, [SEC-1203], 159131, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:41:08, [SEC-1203], 159132, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:42:10, [SEC-1203], 159133, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:43:12, [SEC-1203], 159134, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:44:13, [SEC-1203], 159135, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:45:15, [SEC-1203], 159136, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:46:17, [SEC-1203], 159137, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:47:19, [SEC-1203], 159138, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:48:21, [SEC-1203], 159139, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:49:23, [SEC-1203], 159140, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:50:25, [SEC-1203], 159141, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:51:26, [SEC-1203], 159142, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:52:28, [SEC-1203], 159143, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:53:30, [SEC-1203], 159144, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:54:32, [SEC-1203], 159145, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:55:33, [SEC-1203], 159146, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:56:35, [SEC-1203], 159147, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:57:36, [SEC-1203], 159148, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:58:38, [SEC-1203], 159149, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-01:59:40, [SEC-1203], 159150, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:00:42, [SEC-1203], 159151, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:01:47, [SEC-1203], 159152, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:02:53, [SEC-1203], 159153, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:03:55, [SEC-1203], 159154, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:04:59, [SEC-1203], 159155, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:06:01, [SEC-1203], 159156, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:07:03, [SEC-1203], 159157, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:08:05, [SEC-1203], 159158, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:09:06, [SEC-1203], 159159, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:10:08, [SEC-1203], 159160, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:11:12, [SEC-1203], 159161, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:12:21, [SEC-1203], 159162, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:13:23, [SEC-1203], 159163, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:14:31, [SEC-1203], 159164, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:15:33, [SEC-1203], 159165, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:16:35, [SEC-1203], 159166, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:17:36, [SEC-1203], 159167, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:18:38, [SEC-1203], 159168, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:19:40, [SEC-1203], 159169, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:20:41, [SEC-1203], 159170, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:21:47, [SEC-1203], 159171, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:22:52, [SEC-1203], 159172, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:23:55, [SEC-1203], 159173, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:24:57, [SEC-1203], 159174, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:25:59, [SEC-1203], 159175, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:27:01, [SEC-1203], 159176, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:28:03, [SEC-1203], 159177, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:29:04, [SEC-1203], 159178, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:30:07, [SEC-1203], 159179, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:31:08, [SEC-1203], 159180, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:32:10, [SEC-1203], 159181, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:33:12, [SEC-1203], 159182, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:34:13, [SEC-1203], 159183, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:35:15, [SEC-1203], 159184, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:36:17, [SEC-1203], 159185, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:37:18, [SEC-1203], 159186, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:38:20, [SEC-1203], 159187, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:39:21, [SEC-1203], 159188, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:40:23, [SEC-1203], 159189, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:41:26, [SEC-1203], 159190, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:42:28, [SEC-1203], 159191, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:43:30, [SEC-1203], 159192, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:44:31, [SEC-1203], 159193, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:45:33, [SEC-1203], 159194, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:46:35, [SEC-1203], 159195, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:47:37, [SEC-1203], 159196, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:48:39, [SEC-1203], 159197, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:49:40, [SEC-1203], 159198, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:50:42, [SEC-1203], 159199, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:51:44, [SEC-1203], 159200, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:52:45, [SEC-1203], 159201, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:53:48, [SEC-1203], 159202, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:54:49, [SEC-1203], 159203, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:55:51, [SEC-1203], 159204, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:56:53, [SEC-1203], 159205, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:57:55, [SEC-1203], 159206, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:58:56, [SEC-1203], 159207, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-02:59:58, [SEC-1203], 159208, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:01:00, [SEC-1203], 159209, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:02:01, [SEC-1203], 159210, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:03:04, [SEC-1203], 159211, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:04:06, [SEC-1203], 159212, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:05:11, [SEC-1203], 159213, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:06:13, [SEC-1203], 159214, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:07:14, [SEC-1203], 159215, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:08:16, [SEC-1203], 159216, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:09:18, [SEC-1203], 159217, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:10:20, [SEC-1203], 159218, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:11:22, [SEC-1203], 159219, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:12:24, [SEC-1203], 159220, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:13:27, [SEC-1203], 159221, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:14:29, [SEC-1203], 159222, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:15:30, [SEC-1203], 159223, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:16:32, [SEC-1203], 159224, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:17:34, [SEC-1203], 159225, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:18:35, [SEC-1203], 159226, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:19:37, [SEC-1203], 159227, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:20:39, [SEC-1203], 159228, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:21:41, [SEC-1203], 159229, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:22:42, [SEC-1203], 159230, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:23:44, [SEC-1203], 159231, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:24:46, [SEC-1203], 159232, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:25:48, [SEC-1203], 159233, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:26:49, [SEC-1203], 159234, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:27:51, [SEC-1203], 159235, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:28:53, [SEC-1203], 159236, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:29:54, [SEC-1203], 159237, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:30:56, [SEC-1203], 159238, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:31:58, [SEC-1203], 159239, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:32:59, [SEC-1203], 159240, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:34:01, [SEC-1203], 159241, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:35:03, [SEC-1203], 159242, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:36:04, [SEC-1203], 159243, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:37:06, [SEC-1203], 159244, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:38:09, [SEC-1203], 159245, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:39:11, [SEC-1203], 159246, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:40:13, [SEC-1203], 159247, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:41:15, [SEC-1203], 159248, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:42:17, [SEC-1203], 159249, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:43:18, [SEC-1203], 159250, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:44:20, [SEC-1203], 159251, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:45:22, [SEC-1203], 159252, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:46:24, [SEC-1203], 159253, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:47:25, [SEC-1203], 159254, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:48:27, [SEC-1203], 159255, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:49:29, [SEC-1203], 159256, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:50:30, [SEC-1203], 159257, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:51:32, [SEC-1203], 159258, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:52:34, [SEC-1203], 159259, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:53:36, [SEC-1203], 159260, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:54:37, [SEC-1203], 159261, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:55:39, [SEC-1203], 159262, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:56:41, [SEC-1203], 159263, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:57:42, [SEC-1203], 159264, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:58:44, [SEC-1203], 159265, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-03:59:46, [SEC-1203], 159266, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:00:47, [SEC-1203], 159267, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:01:49, [SEC-1203], 159268, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:02:51, [SEC-1203], 159269, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:03:52, [SEC-1203], 159270, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:04:55, [SEC-1203], 159271, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:05:57, [SEC-1203], 159272, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:06:59, [SEC-1203], 159273, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:08:01, [SEC-1203], 159274, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:09:03, [SEC-1203], 159275, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:10:05, [SEC-1203], 159276, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:11:07, [SEC-1203], 159277, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:12:08, [SEC-1203], 159278, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:13:10, [SEC-1203], 159279, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:14:12, [SEC-1203], 159280, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:15:14, [SEC-1203], 159281, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:16:16, [SEC-1203], 159282, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:17:17, [SEC-1203], 159283, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:18:19, [SEC-1203], 159284, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:19:21, [SEC-1203], 159285, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:20:26, [SEC-1203], 159286, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:21:27, [SEC-1203], 159287, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:22:29, [SEC-1203], 159288, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:23:31, [SEC-1203], 159289, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:24:33, [SEC-1203], 159290, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:25:34, [SEC-1203], 159291, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:26:37, [SEC-1203], 159292, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:27:38, [SEC-1203], 159293, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:28:41, [SEC-1203], 159294, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:29:43, [SEC-1203], 159295, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:30:45, [SEC-1203], 159296, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:31:46, [SEC-1203], 159297, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:32:48, [SEC-1203], 159298, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:33:50, [SEC-1203], 159299, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:34:52, [SEC-1203], 159300, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:35:54, [SEC-1203], 159301, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:36:55, [SEC-1203], 159302, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:37:57, [SEC-1203], 159303, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:38:59, [SEC-1203], 159304, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:40:01, [SEC-1203], 159305, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:41:03, [SEC-1203], 159306, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:42:04, [SEC-1203], 159307, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:43:06, [SEC-1203], 159308, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:44:08, [SEC-1203], 159309, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:45:10, [SEC-1203], 159310, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:46:12, [SEC-1203], 159311, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:47:14, [SEC-1203], 159312, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:48:16, [SEC-1203], 159313, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:49:18, [SEC-1203], 159314, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:50:21, [SEC-1203], 159315, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:51:22, [SEC-1203], 159316, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:52:25, [SEC-1203], 159317, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:53:27, [SEC-1203], 159318, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:54:28, [SEC-1203], 159319, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:55:30, [SEC-1203], 159320, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:56:32, [SEC-1203], 159321, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:57:34, [SEC-1203], 159322, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:58:36, [SEC-1203], 159323, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-04:59:37, [SEC-1203], 159324, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:00:39, [SEC-1203], 159325, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:01:42, [SEC-1203], 159326, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:02:44, [SEC-1203], 159327, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:03:48, [SEC-1203], 159328, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:04:50, [SEC-1203], 159329, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:05:52, [SEC-1203], 159330, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:06:53, [SEC-1203], 159331, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:07:58, [SEC-1203], 159332, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:09:00, [SEC-1203], 159333, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:10:02, [SEC-1203], 159334, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:11:04, [SEC-1203], 159335, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:12:06, [SEC-1203], 159336, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:13:08, [SEC-1203], 159337, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:14:10, [SEC-1203], 159338, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:15:12, [SEC-1203], 159339, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:16:14, [SEC-1203], 159340, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:17:16, [SEC-1203], 159341, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:18:18, [SEC-1203], 159342, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:19:20, [SEC-1203], 159343, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:20:22, [SEC-1203], 159344, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:21:24, [SEC-1203], 159345, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:22:26, [SEC-1203], 159346, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:23:28, [SEC-1203], 159347, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:24:30, [SEC-1203], 159348, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:25:32, [SEC-1203], 159349, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:26:33, [SEC-1203], 159350, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:27:35, [SEC-1203], 159351, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:28:37, [SEC-1203], 159352, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:29:39, [SEC-1203], 159353, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:30:41, [SEC-1203], 159354, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:31:43, [SEC-1203], 159355, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:32:45, [SEC-1203], 159356, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:33:47, [SEC-1203], 159357, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:34:48, [SEC-1203], 159358, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:35:50, [SEC-1203], 159359, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:36:53, [SEC-1203], 159360, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:37:54, [SEC-1203], 159361, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:38:56, [SEC-1203], 159362, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:39:59, [SEC-1203], 159363, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:41:00, [SEC-1203], 159364, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:42:02, [SEC-1203], 159365, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:43:04, [SEC-1203], 159366, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:44:07, [SEC-1203], 159367, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:45:09, [SEC-1203], 159368, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:46:11, [SEC-1203], 159369, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:47:13, [SEC-1203], 159370, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:48:15, [SEC-1203], 159371, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:49:17, [SEC-1203], 159372, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:50:19, [SEC-1203], 159373, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:51:20, [SEC-1203], 159374, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:52:22, [SEC-1203], 159375, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:53:24, [SEC-1203], 159376, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:54:26, [SEC-1203], 159377, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:55:28, [SEC-1203], 159378, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:56:30, [SEC-1203], 159379, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:57:31, [SEC-1203], 159380, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:58:33, [SEC-1203], 159381, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-05:59:34, [SEC-1203], 159382, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:00:35, [SEC-1203], 159383, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:01:38, [SEC-1203], 159384, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:02:40, [SEC-1203], 159385, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:03:42, [SEC-1203], 159386, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:04:47, [SEC-1203], 159387, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:05:49, [SEC-1203], 159388, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:06:51, [SEC-1203], 159389, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:07:52, [SEC-1203], 159390, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:08:55, [SEC-1203], 159391, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:09:57, [SEC-1203], 159392, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:10:58, [SEC-1203], 159393, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:12:01, [SEC-1203], 159394, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:13:02, [SEC-1203], 159395, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:14:04, [SEC-1203], 159396, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:15:06, [SEC-1203], 159397, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:16:08, [SEC-1203], 159398, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:17:10, [SEC-1203], 159399, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:18:12, [SEC-1203], 159400, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:19:13, [SEC-1203], 159401, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:20:15, [SEC-1203], 159402, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:21:17, [SEC-1203], 159403, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:22:19, [SEC-1203], 159404, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:23:22, [SEC-1203], 159405, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:24:23, [SEC-1203], 159406, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:25:25, [SEC-1203], 159407, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:26:27, [SEC-1203], 159408, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:27:29, [SEC-1203], 159409, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:28:30, [SEC-1203], 159410, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:29:32, [SEC-1203], 159411, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:30:34, [SEC-1203], 159412, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:31:36, [SEC-1203], 159413, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:32:37, [SEC-1203], 159414, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:33:41, [SEC-1203], 159415, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:34:44, [SEC-1203], 159416, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:35:46, [SEC-1203], 159417, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:36:47, [SEC-1203], 159418, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:37:49, [SEC-1203], 159419, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:38:52, [SEC-1203], 159420, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:39:20, [TS-1001], 159421, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/03/04-06:39:54, [SEC-1203], 159422, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:40:33, [TS-1001], 159423, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/03/04-06:40:55, [SEC-1203], 159424, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:41:45, [TS-1001], 159425, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/03/04-06:41:57, [SEC-1203], 159426, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:42:58, [TS-1001], 159427, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/03/04-06:42:59, [SEC-1203], 159428, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:44:01, [SEC-1203], 159429, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:44:11, [TS-1001], 159430, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/03/04-06:45:03, [SEC-1203], 159431, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:45:24, [TS-1001], 159432, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/03/04-06:46:04, [SEC-1203], 159433, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:46:36, [TS-1001], 159434, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/03/04-06:47:06, [SEC-1203], 159435, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:47:49, [TS-1001], 159436, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/03/04-06:48:08, [SEC-1203], 159437, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:49:02, [TS-1001], 159438, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/03/04-06:49:10, [SEC-1203], 159439, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:50:10, [TS-1001], 159440, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/03/04-06:50:12, [SEC-1203], 159441, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:51:14, [SEC-1203], 159442, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:51:14, [TS-1001], 159443, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/03/04-06:52:16, [SEC-1203], 159444, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:52:19, [TS-1001], 159445, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/03/04-06:53:18, [SEC-1203], 159446, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:53:24, [TS-1001], 159447, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/03/04-06:54:20, [SEC-1203], 159448, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:54:29, [TS-1001], 159449, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/03/04-06:55:22, [SEC-1203], 159450, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:56:23, [SEC-1203], 159451, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:57:25, [SEC-1203], 159452, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:58:27, [SEC-1203], 159453, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-06:59:28, [SEC-1203], 159454, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:00:30, [SEC-1203], 159455, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:01:31, [SEC-1203], 159456, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:02:34, [SEC-1203], 159457, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:03:35, [SEC-1203], 159458, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:04:37, [SEC-1203], 159459, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:05:39, [SEC-1203], 159460, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:06:42, [SEC-1203], 159461, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:07:45, [SEC-1203], 159462, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:08:47, [SEC-1203], 159463, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:09:48, [SEC-1203], 159464, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:10:50, [SEC-1203], 159465, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:11:52, [SEC-1203], 159466, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:12:54, [SEC-1203], 159467, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:13:56, [SEC-1203], 159468, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:14:58, [SEC-1203], 159469, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:16:00, [SEC-1203], 159470, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:17:02, [SEC-1203], 159471, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:18:05, [SEC-1203], 159472, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:19:08, [SEC-1203], 159473, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:20:09, [SEC-1203], 159474, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:21:12, [SEC-1203], 159475, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:22:13, [SEC-1203], 159476, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:23:15, [SEC-1203], 159477, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:24:17, [SEC-1203], 159478, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:25:19, [SEC-1203], 159479, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:26:21, [SEC-1203], 159480, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:27:23, [SEC-1203], 159481, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:28:25, [SEC-1203], 159482, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:29:26, [SEC-1203], 159483, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:30:28, [SEC-1203], 159484, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:31:30, [SEC-1203], 159485, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:32:31, [SEC-1203], 159486, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:33:33, [SEC-1203], 159487, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:34:35, [SEC-1203], 159488, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:35:37, [SEC-1203], 159489, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:36:38, [SEC-1203], 159490, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:37:40, [SEC-1203], 159491, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:38:42, [SEC-1203], 159492, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:39:44, [SEC-1203], 159493, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:40:46, [SEC-1203], 159494, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:41:48, [SEC-1203], 159495, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:42:49, [SEC-1203], 159496, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:43:51, [SEC-1203], 159497, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:44:53, [SEC-1203], 159498, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:45:55, [SEC-1203], 159499, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:46:57, [SEC-1203], 159500, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:47:58, [SEC-1203], 159501, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:49:00, [SEC-1203], 159502, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:50:02, [SEC-1203], 159503, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:51:05, [SEC-1203], 159504, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:52:12, [SEC-1203], 159505, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:53:15, [SEC-1203], 159506, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:54:19, [SEC-1203], 159507, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:55:23, [SEC-1203], 159508, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:56:26, [SEC-1203], 159509, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:57:30, [SEC-1203], 159510, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:58:32, [SEC-1203], 159511, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-07:59:34, [SEC-1203], 159512, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:00:36, [SEC-1203], 159513, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:01:38, [SEC-1203], 159514, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:02:42, [SEC-1203], 159515, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:03:44, [SEC-1203], 159516, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:04:49, [SEC-1203], 159517, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:05:52, [SEC-1203], 159518, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:06:53, [SEC-1203], 159519, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:07:55, [SEC-1203], 159520, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:08:58, [SEC-1203], 159521, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:09:59, [SEC-1203], 159522, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:11:01, [SEC-1203], 159523, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:12:04, [SEC-1203], 159524, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:13:06, [SEC-1203], 159525, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:14:08, [SEC-1203], 159526, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:15:10, [SEC-1203], 159527, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:16:12, [SEC-1203], 159528, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:17:15, [SEC-1203], 159529, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:18:17, [SEC-1203], 159530, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:19:19, [SEC-1203], 159531, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:20:22, [SEC-1203], 159532, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:21:23, [SEC-1203], 159533, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:22:26, [SEC-1203], 159534, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:23:30, [SEC-1203], 159535, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:24:33, [SEC-1203], 159536, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:25:35, [SEC-1203], 159537, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:26:36, [SEC-1203], 159538, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:27:40, [SEC-1203], 159539, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:28:42, [SEC-1203], 159540, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:29:44, [SEC-1203], 159541, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:30:46, [SEC-1203], 159542, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:31:48, [SEC-1203], 159543, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:32:52, [SEC-1203], 159544, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:33:54, [SEC-1203], 159545, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:34:57, [SEC-1203], 159546, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:35:59, [SEC-1203], 159547, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:37:01, [SEC-1203], 159548, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:38:06, [SEC-1203], 159549, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:39:07, [SEC-1203], 159550, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:40:13, [SEC-1203], 159551, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:41:17, [SEC-1203], 159552, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:42:19, [SEC-1203], 159553, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:43:25, [SEC-1203], 159554, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:44:30, [SEC-1203], 159555, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:45:34, [SEC-1203], 159556, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:46:48, [SEC-1203], 159557, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:47:52, [SEC-1203], 159558, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:48:56, [SEC-1203], 159559, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:49:58, [SEC-1203], 159560, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:51:00, [SEC-1203], 159561, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:52:03, [SEC-1203], 159562, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:53:08, [SEC-1203], 159563, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:54:09, [SEC-1203], 159564, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:55:11, [SEC-1203], 159565, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:56:13, [SEC-1203], 159566, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:57:15, [SEC-1203], 159567, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:58:19, [SEC-1203], 159568, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-08:59:21, [SEC-1203], 159569, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:00:23, [SEC-1203], 159570, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:01:25, [SEC-1203], 159571, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:02:27, [SEC-1203], 159572, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:03:29, [SEC-1203], 159573, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:05:06, [SEC-1203], 159574, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:06:30, [SEC-1203], 159575, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:07:37, [SEC-1203], 159576, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:08:39, [SEC-1203], 159577, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:09:45, [SEC-1203], 159578, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:10:49, [SEC-1203], 159579, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:11:55, [SEC-1203], 159580, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:12:59, [SEC-1203], 159581, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:14:05, [SEC-1203], 159582, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:15:14, [SEC-1203], 159583, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:16:18, [SEC-1203], 159584, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:17:25, [SEC-1203], 159585, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:18:35, [SEC-1203], 159586, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:19:41, [SEC-1203], 159587, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:20:43, [SEC-1203], 159588, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:21:46, [SEC-1203], 159589, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:22:50, [SEC-1203], 159590, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:23:52, [SEC-1203], 159591, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:24:55, [SEC-1203], 159592, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:25:58, [SEC-1203], 159593, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:27:01, [SEC-1203], 159594, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:28:04, [SEC-1203], 159595, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:29:07, [SEC-1203], 159596, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:30:10, [SEC-1203], 159597, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:31:13, [SEC-1203], 159598, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:32:15, [SEC-1203], 159599, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:33:19, [SEC-1203], 159600, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:34:22, [SEC-1203], 159601, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:35:24, [SEC-1203], 159602, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:36:26, [SEC-1203], 159603, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:37:29, [SEC-1203], 159604, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:38:33, [SEC-1203], 159605, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:39:35, [SEC-1203], 159606, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:40:37, [SEC-1203], 159607, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:41:40, [SEC-1203], 159608, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:42:43, [SEC-1203], 159609, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:43:45, [SEC-1203], 159610, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:44:47, [SEC-1203], 159611, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:45:51, [SEC-1203], 159612, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:46:53, [SEC-1203], 159613, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:47:56, [SEC-1203], 159614, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:48:59, [SEC-1203], 159615, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:50:02, [SEC-1203], 159616, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:51:05, [SEC-1203], 159617, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:52:09, [SEC-1203], 159618, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:53:13, [SEC-1203], 159619, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:54:16, [SEC-1203], 159620, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:55:18, [SEC-1203], 159621, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:56:19, [SEC-1203], 159622, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:57:23, [SEC-1203], 159623, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:58:26, [SEC-1203], 159624, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-09:59:28, [SEC-1203], 159625, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-10:00:30, [SEC-1203], 159626, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-10:01:34, [SEC-1203], 159627, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-10:02:37, [SEC-1203], 159628, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/04-15:21:13, [TS-1001], 159629, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/03/04-15:37:34, [LOG-1000], 159643, CHASSIS, INFO, Brocade300, Previous message repeated 14 time(s)
+
+2020/03/04-21:15:18, [SEC-1203], 159644, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.57
+
+2020/03/05-15:19:53, [TS-1001], 159645, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/03/05-15:35:11, [LOG-1000], 159657, CHASSIS, INFO, Brocade300, Previous message repeated 12 time(s)
+
+2020/03/05-21:15:18, [SEC-1203], 159658, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.57
+
+2020/03/06-15:21:06, [TS-1001], 159659, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/03/06-15:37:25, [LOG-1000], 159673, CHASSIS, INFO, Brocade300, Previous message repeated 14 time(s)
+
+2020/03/06-21:15:18, [SEC-1203], 159674, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.57
+
+2020/03/07-15:21:09, [TS-1001], 159675, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/03/07-15:36:26, [LOG-1000], 159688, CHASSIS, INFO, Brocade300, Previous message repeated 13 time(s)
+
+2020/03/07-21:15:18, [SEC-1203], 159689, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.57
+
+2020/03/08-15:21:01, [TS-1001], 159690, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/03/08-15:37:23, [LOG-1000], 159704, CHASSIS, INFO, Brocade300, Previous message repeated 14 time(s)
+
+2020/03/08-21:15:18, [SEC-1203], 159705, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.57
+
+2020/03/09-15:19:03, [TS-1001], 159706, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/03/09-15:38:54, [LOG-1000], 159723, CHASSIS, INFO, Brocade300, Previous message repeated 17 time(s)
+
+2020/03/09-21:15:17, [SEC-1203], 159724, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.57
+
+2020/03/10-15:20:49, [TS-1001], 159725, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/03/10-15:37:09, [LOG-1000], 159739, CHASSIS, INFO, Brocade300, Previous message repeated 14 time(s)
+
+2020/03/10-21:15:19, [SEC-1203], 159740, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.57
+
+2020/03/11-15:15:50, [TS-1001], 159741, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/03/11-15:45:12, [LOG-1000], 159757, CHASSIS, INFO, Brocade300, Previous message repeated 16 time(s)
+
+2020/03/11-21:15:18, [SEC-1203], 159758, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.57
+
+2020/03/12-02:04:21, [SEC-1203], 159759, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:05:00, [SEC-1203], 159760, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:05:23, [SEC-1203], 159761, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:06:02, [SEC-1203], 159762, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:06:24, [SEC-1203], 159763, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:07:01, [SEC-1203], 159764, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:07:23, [SEC-1203], 159765, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:08:00, [SEC-1203], 159766, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:08:22, [SEC-1203], 159767, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:08:58, [SEC-1203], 159768, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:09:21, [SEC-1203], 159769, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:10:05, [SEC-1203], 159770, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:10:22, [SEC-1203], 159771, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:11:04, [SEC-1203], 159772, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:11:30, [SEC-1203], 159773, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:12:10, [SEC-1203], 159774, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:12:34, [SEC-1203], 159775, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:13:13, [SEC-1203], 159776, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:13:33, [SEC-1203], 159777, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:14:12, [SEC-1203], 159778, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:14:54, [SEC-1203], 159779, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:15:17, [SEC-1203], 159780, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:15:55, [SEC-1203], 159781, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:16:16, [SEC-1203], 159782, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:16:55, [SEC-1203], 159783, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:17:15, [SEC-1203], 159784, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:17:54, [SEC-1203], 159785, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:17:56, [SEC-1203], 159786, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:18:23, [SEC-1203], 159787, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:18:57, [SEC-1203], 159788, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:18:59, [SEC-1203], 159789, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:20:18, [SEC-1203], 159790, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:21:25, [SEC-1203], 159791, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:22:31, [SEC-1203], 159792, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:23:37, [SEC-1203], 159793, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:24:47, [SEC-1203], 159794, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:25:55, [SEC-1203], 159795, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:27:45, [SEC-1203], 159796, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:28:46, [SEC-1203], 159797, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:29:44, [SEC-1203], 159798, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:30:43, [SEC-1203], 159799, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:31:49, [SEC-1203], 159800, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:32:53, [SEC-1203], 159801, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:33:57, [SEC-1203], 159802, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:34:56, [SEC-1203], 159803, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:35:54, [SEC-1203], 159804, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:36:52, [SEC-1203], 159805, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:37:51, [SEC-1203], 159806, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:38:49, [SEC-1203], 159807, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:39:48, [SEC-1203], 159808, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:40:47, [SEC-1203], 159809, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:41:45, [SEC-1203], 159810, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:42:49, [SEC-1203], 159811, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:43:48, [SEC-1203], 159812, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:44:46, [SEC-1203], 159813, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:45:45, [SEC-1203], 159814, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:46:44, [SEC-1203], 159815, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:47:42, [SEC-1203], 159816, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:48:41, [SEC-1203], 159817, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:49:40, [SEC-1203], 159818, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:50:41, [SEC-1203], 159819, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:51:42, [SEC-1203], 159820, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:52:40, [SEC-1203], 159821, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:53:47, [SEC-1203], 159822, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:54:45, [SEC-1203], 159823, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:55:47, [SEC-1203], 159824, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:56:48, [SEC-1203], 159825, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:57:47, [SEC-1203], 159826, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:58:45, [SEC-1203], 159827, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-02:59:46, [SEC-1203], 159828, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:00:45, [SEC-1203], 159829, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:01:43, [SEC-1203], 159830, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:02:42, [SEC-1203], 159831, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:03:40, [SEC-1203], 159832, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:04:41, [SEC-1203], 159833, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:05:40, [SEC-1203], 159834, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:06:41, [SEC-1203], 159835, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:07:42, [SEC-1203], 159836, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:08:45, [SEC-1203], 159837, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:09:45, [SEC-1203], 159838, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:10:47, [SEC-1203], 159839, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:11:48, [SEC-1203], 159840, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:12:47, [SEC-1203], 159841, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:13:45, [SEC-1203], 159842, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:14:44, [SEC-1203], 159843, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:15:42, [SEC-1203], 159844, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:16:41, [SEC-1203], 159845, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:17:40, [SEC-1203], 159846, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:18:41, [SEC-1203], 159847, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:19:42, [SEC-1203], 159848, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:20:42, [SEC-1203], 159849, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:21:43, [SEC-1203], 159850, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:22:44, [SEC-1203], 159851, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:23:45, [SEC-1203], 159852, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:24:44, [SEC-1203], 159853, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:25:42, [SEC-1203], 159854, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:26:43, [SEC-1203], 159855, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:27:44, [SEC-1203], 159856, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:28:43, [SEC-1203], 159857, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:29:43, [SEC-1203], 159858, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:30:44, [SEC-1203], 159859, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:31:42, [SEC-1203], 159860, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:32:43, [SEC-1203], 159861, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:33:42, [SEC-1203], 159862, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:34:40, [SEC-1203], 159863, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:35:41, [SEC-1203], 159864, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:36:42, [SEC-1203], 159865, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:37:43, [SEC-1203], 159866, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:38:41, [SEC-1203], 159867, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:39:42, [SEC-1203], 159868, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:40:40, [SEC-1203], 159869, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:41:39, [SEC-1203], 159870, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:42:38, [SEC-1203], 159871, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:43:37, [SEC-1203], 159872, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:44:37, [SEC-1203], 159873, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:45:38, [SEC-1203], 159874, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:46:37, [SEC-1203], 159875, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:47:38, [SEC-1203], 159876, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:48:39, [SEC-1203], 159877, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:49:40, [SEC-1203], 159878, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:50:41, [SEC-1203], 159879, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:51:42, [SEC-1203], 159880, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:52:41, [SEC-1203], 159881, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:53:41, [SEC-1203], 159882, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:54:40, [SEC-1203], 159883, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:56:00, [SEC-1203], 159884, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-03:57:20, [SEC-1203], 159885, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-05:40:22, [SEC-1203], 159886, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-05:40:32, [SEC-1203], 159887, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-05:40:53, [SEC-1203], 159888, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-08:16:53, [SEC-1203], 159889, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-08:22:04, [SEC-1203], 159890, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-08:31:39, [SEC-1203], 159891, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-08:34:04, [SEC-1203], 159892, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-08:36:41, [SEC-1203], 159893, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-08:38:52, [SEC-1203], 159894, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-08:39:49, [SEC-1203], 159895, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-08:40:27, [SEC-1203], 159896, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-08:41:54, [SEC-1203], 159897, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-08:42:49, [SEC-1203], 159898, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-08:43:46, [SEC-1203], 159899, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-08:44:40, [SEC-1203], 159900, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-08:45:24, [SEC-1203], 159901, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-08:46:30, [SEC-1203], 159902, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-08:47:50, [SEC-1203], 159903, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-08:48:50, [SEC-1203], 159904, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:05:08, [SEC-1203], 159905, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:06:02, [SEC-1203], 159906, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:06:55, [SEC-1203], 159907, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:07:49, [SEC-1203], 159908, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:08:42, [SEC-1203], 159909, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:09:36, [SEC-1203], 159910, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:10:29, [SEC-1203], 159911, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:11:22, [SEC-1203], 159912, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:12:16, [SEC-1203], 159913, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:13:09, [SEC-1203], 159914, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:14:03, [SEC-1203], 159915, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:14:56, [SEC-1203], 159916, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:15:50, [SEC-1203], 159917, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:16:43, [SEC-1203], 159918, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:17:37, [SEC-1203], 159919, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:18:31, [SEC-1203], 159920, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:19:24, [SEC-1203], 159921, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:20:18, [SEC-1203], 159922, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:21:11, [SEC-1203], 159923, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:22:04, [SEC-1203], 159924, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:22:58, [SEC-1203], 159925, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:23:51, [SEC-1203], 159926, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:24:45, [SEC-1203], 159927, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:25:39, [SEC-1203], 159928, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:26:32, [SEC-1203], 159929, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:27:26, [SEC-1203], 159930, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:28:19, [SEC-1203], 159931, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:29:13, [SEC-1203], 159932, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:30:06, [SEC-1203], 159933, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:31:00, [SEC-1203], 159934, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:31:53, [SEC-1203], 159935, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:32:47, [SEC-1203], 159936, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:33:40, [SEC-1203], 159937, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:34:34, [SEC-1203], 159938, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:35:27, [SEC-1203], 159939, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:36:21, [SEC-1203], 159940, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:37:14, [SEC-1203], 159941, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:38:07, [SEC-1203], 159942, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:39:01, [SEC-1203], 159943, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:39:54, [SEC-1203], 159944, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:40:48, [SEC-1203], 159945, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:41:41, [SEC-1203], 159946, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:42:35, [SEC-1203], 159947, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:43:28, [SEC-1203], 159948, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:44:22, [SEC-1203], 159949, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:45:15, [SEC-1203], 159950, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:46:09, [SEC-1203], 159951, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:47:03, [SEC-1203], 159952, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:47:56, [SEC-1203], 159953, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:48:49, [SEC-1203], 159954, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:49:43, [SEC-1203], 159955, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:50:37, [SEC-1203], 159956, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:51:30, [SEC-1203], 159957, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:52:24, [SEC-1203], 159958, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:53:17, [SEC-1203], 159959, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:54:10, [SEC-1203], 159960, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:55:04, [SEC-1203], 159961, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:55:57, [SEC-1203], 159962, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:56:51, [SEC-1203], 159963, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:57:44, [SEC-1203], 159964, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:58:38, [SEC-1203], 159965, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-13:59:31, [SEC-1203], 159966, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-14:00:25, [SEC-1203], 159967, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-14:01:18, [SEC-1203], 159968, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-15:20:42, [TS-1001], 159969, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/03/12-15:38:09, [LOG-1000], 159984, CHASSIS, INFO, Brocade300, Previous message repeated 15 time(s)
+
+2020/03/12-21:15:19, [SEC-1203], 159985, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.57
+
+2020/03/12-23:47:56, [SEC-1203], 159986, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-23:51:47, [SEC-1203], 159987, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-23:52:59, [SEC-1203], 159988, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-23:55:02, [SEC-1203], 159989, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/12-23:56:10, [SEC-1203], 159990, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:02:52, [SEC-1203], 159991, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:12:28, [SEC-1203], 159992, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:15:14, [SEC-1203], 159993, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:16:47, [SEC-1203], 159994, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:17:32, [SEC-1203], 159995, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:18:57, [SEC-1203], 159996, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:20:12, [SEC-1203], 159997, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:21:02, [SEC-1203], 159998, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:22:44, [SEC-1203], 159999, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:23:12, [SEC-1203], 160000, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:23:50, [SEC-1203], 160001, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:24:53, [SEC-1203], 160002, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:25:33, [SEC-1203], 160003, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:26:29, [SEC-1203], 160004, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:28:39, [SEC-1203], 160005, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:32:13, [SEC-1203], 160006, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:33:36, [SEC-1203], 160007, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:33:56, [SEC-1203], 160008, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:45:13, [SEC-1203], 160009, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:46:19, [SEC-1203], 160010, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:48:01, [SEC-1203], 160011, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:50:13, [SEC-1203], 160012, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:50:51, [SEC-1203], 160013, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:52:21, [SEC-1203], 160014, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:53:18, [SEC-1203], 160015, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-00:58:03, [SEC-1203], 160016, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-01:05:04, [SEC-1203], 160017, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-01:06:09, [SEC-1203], 160018, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-01:07:57, [SEC-1203], 160019, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-01:08:43, [SEC-1203], 160020, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-01:10:29, [SEC-1203], 160021, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-05:07:13, [SEC-1203], 160022, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-05:08:37, [SEC-1203], 160023, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-05:09:22, [SEC-1203], 160024, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-05:30:02, [SEC-1203], 160025, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-05:31:30, [SEC-1203], 160026, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-05:32:07, [SEC-1203], 160027, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-05:32:57, [SEC-1203], 160028, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-05:33:40, [SEC-1203], 160029, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-05:54:26, [SEC-1203], 160030, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-06:17:56, [SEC-1203], 160031, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-08:23:24, [SEC-1193], 160032, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-08:23:58, [SEC-1193], 160033, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/03/13-12:13:23, [SEC-1203], 160034, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+###***portperfshow***###
+   0    1    2    3    4    5    6    7    8    9   10   11   12   13   14   15 
+================================================================================
+  20k 339k   0    0  296  1.4k 252k   0    0    0    0    0    0    0    0    0 
+
+  16   17   18   19   20   21   22   23  Total
+==============================================
+   0    0    0    0    0    0    0    0  614k
+
+
+
+
+###############################################################################
+###############################################################################
+###########  END : 2020-03-13 21:13:35
+###############################################################################
+###############################################################################
+

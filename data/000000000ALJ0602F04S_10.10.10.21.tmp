@@ -1,0 +1,76 @@
+###############################################################################
+#                                                                             #
+#   Description  : SAN Switch Port Monitor                                    #
+#   HOSTNAME     : 000000000ALJ0602F04S                                       #
+#   CONNECT IP   : 10.10.10.21                                                #
+#   EXECUTE DATE : 2020-02-18 10:48:38                                        #
+#   VERSION      : 1.1.1                                                      #
+#                                                                             #
+###############################################################################
+
+###***date***###
+Tue Feb 18 01:01:56 UTC 2020
+###***switchshow***###
+switchName:	Fsw_02
+switchType:	71.2
+switchState:	Online   
+switchMode:	Native
+switchRole:	Principal
+switchDomain:	1
+switchId:	fffc01
+switchWwn:	10:00:00:05:33:53:b4:17
+zoning:		ON (SAN1_zone)
+switchBeacon:	OFF
+
+Index Port Address Media Speed State     Proto
+==============================================
+  0   0   011700   id    N8   Online      FC  F-Port  10:00:00:00:c9:c4:64:ba 
+  1   1   011500   id    N8   Online      FC  F-Port  10:00:00:90:fa:16:a2:44 
+  2   2   011300   id    N8   No_Light    FC  
+  3   3   011100   id    N8   No_Light    FC  
+  4   4   011600   id    N8   Online      FC  F-Port  50:05:07:68:02:25:c0:81 
+  5   5   011400   id    N8   Online      FC  F-Port  50:05:07:68:02:25:c0:82 
+  6   6   011200   id    N2   Online      FC  F-Port  50:06:01:69:30:20:48:53 
+  7   7   011000   id    N2   Online      FC  F-Port  50:06:01:61:30:20:48:53 
+  8   8   010f00   id    N8   No_Light    FC  
+  9   9   010d00   id    N8   No_Light    FC  
+ 10  10   010b00   id    N8   No_Light    FC  
+ 11  11   010900   id    N8   No_Light    FC  
+ 12  12   010e00   id    N8   No_Light    FC  
+ 13  13   010c00   id    N8   No_Light    FC  
+ 14  14   010a00   id    N8   No_Light    FC  
+ 15  15   010800   id    N8   No_Light    FC  
+ 16  16   010700   --    N8   No_Module   FC  (No POD License) Disabled
+ 17  17   010500   --    N8   No_Module   FC  (No POD License) Disabled
+ 18  18   010300   --    N8   No_Module   FC  (No POD License) Disabled
+ 19  19   010100   --    N8   No_Module   FC  (No POD License) Disabled
+ 20  20   010600   --    N8   No_Module   FC  (No POD License) Disabled
+ 21  21   010400   --    N8   No_Module   FC  (No POD License) Disabled
+ 22  22   010200   --    N8   No_Module   FC  (No POD License) Disabled
+ 23  23   010000   --    N8   No_Module   FC  (No POD License) Disabled
+###***chassisshow***###
+
+POWER SUPPLY  Unit: 1	
+Time Awake:            	325 days
+
+FAN  Unit: 1	
+Time Awake:            	325 days
+
+FAN  Unit: 2	
+Time Awake:            	325 days
+
+FAN  Unit: 3	
+Time Awake:            	325 days
+
+CHASSIS/WWN  Unit: 1
+Header Version:       	2
+Factory Part Num:      	40-1000165-14
+Factory Serial Num:    	ALJ2503G08G
+Manufacture:           	Day: 11  Month:  1  Year: 2011
+Update:                	Day: 17  Month:  2  Year: 2020
+Time Alive:            	2766 days
+Time Awake:            	325 days
+ID:           		BRD0000CA
+Part Num:     		SLKWRM0000300
+
+###***porterrshow***###

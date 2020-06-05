@@ -1,0 +1,616 @@
+
+=============
+Port  0:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01
+Vendor Rev:  A
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0
+BR Min:      0
+Serial No:   UAF11118000010L
+Date Code:   110424
+DD Type:     0x68
+Enh Options: 0xfa
+Status/Ctrl: 0xb2
+Alarm flags[0,1] = 0x5, 0x40
+Warn Flags[0,1] = 0x5, 0x40
+                                          Alarm                  Warn
+                                      low        high       low         high
+Temperature: 31      Centigrade     -10         90         -5          85
+Current:     6.776   mAmps          1.000       17.000     2.000       14.000
+Voltage:     3272.9  mVolts         2900.0      3700.0     3000.0      3600.0
+RX Power:    -2.7    dBm (532.3 uW) 10.0   uW   1258.9 uW  15.8   uW   1000.0 uW
+TX Power:    -3.3    dBm (467.1 uW) 125.9  uW   631.0  uW  158.5  uW   562.3  uW
+
+=============
+Port  1:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01
+Vendor Rev:  A
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0
+BR Min:      0
+Serial No:   UAF1111700010GT
+Date Code:   110423
+DD Type:     0x68
+Enh Options: 0xfa
+Status/Ctrl: 0xb2
+Alarm flags[0,1] = 0x5, 0x40
+Warn Flags[0,1] = 0x5, 0x40
+                                          Alarm                  Warn
+                                      low        high       low         high
+Temperature: 31      Centigrade     -10         90         -5          85
+Current:     6.074   mAmps          1.000       17.000     2.000       14.000
+Voltage:     3272.2  mVolts         2900.0      3700.0     3000.0      3600.0
+RX Power:    -4.6    dBm (348.0 uW) 10.0   uW   1258.9 uW  15.8   uW   1000.0 uW
+TX Power:    -3.3    dBm (466.1 uW) 125.9  uW   631.0  uW  158.5  uW   562.3  uW
+
+=============
+Port  2:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01
+Vendor Rev:  A
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0
+BR Min:      0
+Serial No:   UAF1111700010GS
+Date Code:   110423
+DD Type:     0x68
+Enh Options: 0xfa
+Status/Ctrl: 0xb2
+Alarm flags[0,1] = 0x5, 0x40
+Warn Flags[0,1] = 0x5, 0x40
+                                          Alarm                  Warn
+                                      low        high       low         high
+Temperature: 30      Centigrade     -10         90         -5          85
+Current:     6.390   mAmps          1.000       17.000     2.000       14.000
+Voltage:     3274.2  mVolts         2900.0      3700.0     3000.0      3600.0
+RX Power:    -inf    dBm (0.0   uW) 10.0   uW   1258.9 uW  15.8   uW   1000.0 uW
+TX Power:    -3.3    dBm (468.6 uW) 125.9  uW   631.0  uW  158.5  uW   562.3  uW
+
+=============
+Port  3:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01
+Vendor Rev:  A
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0
+BR Min:      0
+Serial No:   UAF111180000CD0
+Date Code:   110425
+DD Type:     0x68
+Enh Options: 0xfa
+Status/Ctrl: 0xb2
+Alarm flags[0,1] = 0x5, 0x40
+Warn Flags[0,1] = 0x5, 0x40
+                                          Alarm                  Warn
+                                      low        high       low         high
+Temperature: 29      Centigrade     -10         90         -5          85
+Current:     6.928   mAmps          1.000       17.000     2.000       14.000
+Voltage:     3273.3  mVolts         2900.0      3700.0     3000.0      3600.0
+RX Power:    -inf    dBm (0.0   uW) 10.0   uW   1258.9 uW  15.8   uW   1000.0 uW
+TX Power:    -3.2    dBm (483.3 uW) 125.9  uW   631.0  uW  158.5  uW   562.3  uW
+
+=============
+Port  4:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01
+Vendor Rev:  A
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0
+BR Min:      0
+Serial No:   UAF11118000041T
+Date Code:   110424
+DD Type:     0x68
+Enh Options: 0xfa
+Status/Ctrl: 0xb2
+Alarm flags[0,1] = 0x5, 0x40
+Warn Flags[0,1] = 0x5, 0x40
+                                          Alarm                  Warn
+                                      low        high       low         high
+Temperature: 29      Centigrade     -10         90         -5          85
+Current:     5.824   mAmps          1.000       17.000     2.000       14.000
+Voltage:     3271.2  mVolts         2900.0      3700.0     3000.0      3600.0
+RX Power:    -3.7    dBm (429.2 uW) 10.0   uW   1258.9 uW  15.8   uW   1000.0 uW
+TX Power:    -3.3    dBm (469.6 uW) 125.9  uW   631.0  uW  158.5  uW   562.3  uW
+
+=============
+Port  5:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01
+Vendor Rev:  A
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0
+BR Min:      0
+Serial No:   UAF11118000015A
+Date Code:   110424
+DD Type:     0x68
+Enh Options: 0xfa
+Status/Ctrl: 0xb2
+Alarm flags[0,1] = 0x5, 0x40
+Warn Flags[0,1] = 0x5, 0x40
+                                          Alarm                  Warn
+                                      low        high       low         high
+Temperature: 27      Centigrade     -10         90         -5          85
+Current:     6.638   mAmps          1.000       17.000     2.000       14.000
+Voltage:     3272.9  mVolts         2900.0      3700.0     3000.0      3600.0
+RX Power:    -3.0    dBm (501.1 uW) 10.0   uW   1258.9 uW  15.8   uW   1000.0 uW
+TX Power:    -3.3    dBm (465.4 uW) 125.9  uW   631.0  uW  158.5  uW   562.3  uW
+
+=============
+Port  6:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01
+Vendor Rev:  A
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0
+BR Min:      0
+Serial No:   UAF111180000CBN
+Date Code:   110425
+DD Type:     0x68
+Enh Options: 0xfa
+Status/Ctrl: 0xb2
+Alarm flags[0,1] = 0x5, 0x40
+Warn Flags[0,1] = 0x5, 0x40
+                                          Alarm                  Warn
+                                      low        high       low         high
+Temperature: 28      Centigrade     -10         90         -5          85
+Current:     7.154   mAmps          1.000       17.000     2.000       14.000
+Voltage:     3272.6  mVolts         2900.0      3700.0     3000.0      3600.0
+RX Power:    -6.7    dBm (212.9 uW) 10.0   uW   1258.9 uW  15.8   uW   1000.0 uW
+TX Power:    -3.2    dBm (482.3 uW) 125.9  uW   631.0  uW  158.5  uW   562.3  uW
+
+=============
+Port  7:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01
+Vendor Rev:  A
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0
+BR Min:      0
+Serial No:   UAF11118000012D
+Date Code:   110424
+DD Type:     0x68
+Enh Options: 0xfa
+Status/Ctrl: 0xb2
+Alarm flags[0,1] = 0x5, 0x40
+Warn Flags[0,1] = 0x5, 0x40
+                                          Alarm                  Warn
+                                      low        high       low         high
+Temperature: 27      Centigrade     -10         90         -5          85
+Current:     5.804   mAmps          1.000       17.000     2.000       14.000
+Voltage:     3272.3  mVolts         2900.0      3700.0     3000.0      3600.0
+RX Power:    -7.0    dBm (200.5 uW) 10.0   uW   1258.9 uW  15.8   uW   1000.0 uW
+TX Power:    -3.3    dBm (465.7 uW) 125.9  uW   631.0  uW  158.5  uW   562.3  uW
+
+=============
+Port  8:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01
+Vendor Rev:  A
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0
+BR Min:      0
+Serial No:   UAF111180000155
+Date Code:   110424
+DD Type:     0x68
+Enh Options: 0xfa
+Status/Ctrl: 0xb2
+Alarm flags[0,1] = 0x5, 0x40
+Warn Flags[0,1] = 0x5, 0x40
+                                          Alarm                  Warn
+                                      low        high       low         high
+Temperature: 27      Centigrade     -10         90         -5          85
+Current:     5.718   mAmps          1.000       17.000     2.000       14.000
+Voltage:     3274.9  mVolts         2900.0      3700.0     3000.0      3600.0
+RX Power:    -inf    dBm (0.0   uW) 10.0   uW   1258.9 uW  15.8   uW   1000.0 uW
+TX Power:    -3.3    dBm (463.6 uW) 125.9  uW   631.0  uW  158.5  uW   562.3  uW
+
+=============
+Port  9:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01
+Vendor Rev:  A
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0
+BR Min:      0
+Serial No:   UAF1111700010GG
+Date Code:   110423
+DD Type:     0x68
+Enh Options: 0xfa
+Status/Ctrl: 0xb2
+Alarm flags[0,1] = 0x5, 0x40
+Warn Flags[0,1] = 0x5, 0x40
+                                          Alarm                  Warn
+                                      low        high       low         high
+Temperature: 28      Centigrade     -10         90         -5          85
+Current:     6.896   mAmps          1.000       17.000     2.000       14.000
+Voltage:     3270.5  mVolts         2900.0      3700.0     3000.0      3600.0
+RX Power:    -35.2   dBm (0.3   uW) 10.0   uW   1258.9 uW  15.8   uW   1000.0 uW
+TX Power:    -3.3    dBm (465.3 uW) 125.9  uW   631.0  uW  158.5  uW   562.3  uW
+
+=============
+Port 10:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01
+Vendor Rev:  A
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0
+BR Min:      0
+Serial No:   UAF111180000CFC
+Date Code:   110425
+DD Type:     0x68
+Enh Options: 0xfa
+Status/Ctrl: 0xb2
+Alarm flags[0,1] = 0x5, 0x40
+Warn Flags[0,1] = 0x5, 0x40
+                                          Alarm                  Warn
+                                      low        high       low         high
+Temperature: 27      Centigrade     -10         90         -5          85
+Current:     6.740   mAmps          1.000       17.000     2.000       14.000
+Voltage:     3269.9  mVolts         2900.0      3700.0     3000.0      3600.0
+RX Power:    -inf    dBm (0.0   uW) 10.0   uW   1258.9 uW  15.8   uW   1000.0 uW
+TX Power:    -3.3    dBm (468.3 uW) 125.9  uW   631.0  uW  158.5  uW   562.3  uW
+
+=============
+Port 11:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01
+Vendor Rev:  A
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0
+BR Min:      0
+Serial No:   UAF11118000010K
+Date Code:   110424
+DD Type:     0x68
+Enh Options: 0xfa
+Status/Ctrl: 0xb2
+Alarm flags[0,1] = 0x5, 0x40
+Warn Flags[0,1] = 0x5, 0x40
+                                          Alarm                  Warn
+                                      low        high       low         high
+Temperature: 27      Centigrade     -10         90         -5          85
+Current:     7.134   mAmps          1.000       17.000     2.000       14.000
+Voltage:     3273.9  mVolts         2900.0      3700.0     3000.0      3600.0
+RX Power:    -inf    dBm (0.0   uW) 10.0   uW   1258.9 uW  15.8   uW   1000.0 uW
+TX Power:    -3.3    dBm (469.3 uW) 125.9  uW   631.0  uW  158.5  uW   562.3  uW
+
+=============
+Port 12:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01
+Vendor Rev:  A
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0
+BR Min:      0
+Serial No:   UAF11118000070P
+Date Code:   110424
+DD Type:     0x68
+Enh Options: 0xfa
+Status/Ctrl: 0xb2
+Alarm flags[0,1] = 0x5, 0x40
+Warn Flags[0,1] = 0x5, 0x40
+                                          Alarm                  Warn
+                                      low        high       low         high
+Temperature: 26      Centigrade     -10         90         -5          85
+Current:     6.440   mAmps          1.000       17.000     2.000       14.000
+Voltage:     3276.3  mVolts         2900.0      3700.0     3000.0      3600.0
+RX Power:    -inf    dBm (0.0   uW) 10.0   uW   1258.9 uW  15.8   uW   1000.0 uW
+TX Power:    -3.2    dBm (482.6 uW) 125.9  uW   631.0  uW  158.5  uW   562.3  uW
+
+=============
+Port 13:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01
+Vendor Rev:  A
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0
+BR Min:      0
+Serial No:   UAF111180000301
+Date Code:   110424
+DD Type:     0x68
+Enh Options: 0xfa
+Status/Ctrl: 0xb2
+Alarm flags[0,1] = 0x5, 0x40
+Warn Flags[0,1] = 0x5, 0x40
+                                          Alarm                  Warn
+                                      low        high       low         high
+Temperature: 27      Centigrade     -10         90         -5          85
+Current:     5.994   mAmps          1.000       17.000     2.000       14.000
+Voltage:     3278.7  mVolts         2900.0      3700.0     3000.0      3600.0
+RX Power:    -inf    dBm (0.0   uW) 10.0   uW   1258.9 uW  15.8   uW   1000.0 uW
+TX Power:    -3.4    dBm (458.7 uW) 125.9  uW   631.0  uW  158.5  uW   562.3  uW
+
+=============
+Port 14:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01
+Vendor Rev:  A
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0
+BR Min:      0
+Serial No:   UAF111180000CVE
+Date Code:   110426
+DD Type:     0x68
+Enh Options: 0xfa
+Status/Ctrl: 0xb2
+Alarm flags[0,1] = 0x5, 0x40
+Warn Flags[0,1] = 0x5, 0x40
+                                          Alarm                  Warn
+                                      low        high       low         high
+Temperature: 26      Centigrade     -10         90         -5          85
+Current:     6.634   mAmps          1.000       17.000     2.000       14.000
+Voltage:     3276.1  mVolts         2900.0      3700.0     3000.0      3600.0
+RX Power:    -inf    dBm (0.0   uW) 10.0   uW   1258.9 uW  15.8   uW   1000.0 uW
+TX Power:    -3.3    dBm (466.1 uW) 125.9  uW   631.0  uW  158.5  uW   562.3  uW
+
+=============
+Port 15:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01
+Vendor Rev:  A
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0
+BR Min:      0
+Serial No:   UAF11118000014T
+Date Code:   110424
+DD Type:     0x68
+Enh Options: 0xfa
+Status/Ctrl: 0xb2
+Alarm flags[0,1] = 0x5, 0x40
+Warn Flags[0,1] = 0x5, 0x40
+                                          Alarm                  Warn
+                                      low        high       low         high
+Temperature: 26      Centigrade     -10         90         -5          85
+Current:     6.862   mAmps          1.000       17.000     2.000       14.000
+Voltage:     3278.8  mVolts         2900.0      3700.0     3000.0      3600.0
+RX Power:    -inf    dBm (0.0   uW) 10.0   uW   1258.9 uW  15.8   uW   1000.0 uW
+TX Power:    -3.3    dBm (468.2 uW) 125.9  uW   631.0  uW  158.5  uW   562.3  uW
+
+=============
+Port 16:
+=============
+port 16: can't get serial data
+
+=============
+Port 17:
+=============
+port 17: can't get serial data
+
+=============
+Port 18:
+=============
+port 18: can't get serial data
+
+=============
+Port 19:
+=============
+port 19: can't get serial data
+
+=============
+Port 20:
+=============
+port 20: can't get serial data
+
+=============
+Port 21:
+=============
+port 21: can't get serial data
+
+=============
+Port 22:
+=============
+port 22: can't get serial data
+
+=============
+Port 23:
+=============
+port 23: can't get serial data

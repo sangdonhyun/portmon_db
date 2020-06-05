@@ -1,0 +1,27 @@
+lrange brocade_key_format 0 -1
+
+rpush type_list "brocade"
+
+hset brocade_key_format real "device::flag"
+
+121.170.193.222:6379> hgetall "brocade_key_format"
+1) "real"
+2) "device::flag"
+
+rpush brocade_flag_list SFP_TX_POWOR
+rpush brocade_flag_list SFP_RX_POWOR
+rpush brocade_flag_list CRC
+rpush brocade_flag_list throughput
+
+lrange brocade_flag_list 0 -1
+
+
+lrange brocade_flag_list 0 -1
+
+
+rpush brocade_device_list "000000000ALJ0602F04S"
+rpush brocade_device_list "000000000ALJ2503G08G"
+
+
+
+

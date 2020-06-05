@@ -1,0 +1,384 @@
+switchName:	sp-main-san01
+switchType:	120.0
+switchState:	Online
+switchMode:	Native
+switchRole:	Principal
+switchDomain:	1
+switchId:	fffc01
+switchWwn:	10:00:c4:f5:7c:c3:a2:53
+zoning:		ON (sp_main_san_cfg_01)
+switchBeacon:	OFF
+FC Router:	OFF
+HIF Mode:	OFF
+
+Index Slot Port Address Media  Speed        State    Proto
+============================================================
+   0    1    0   010000   id    N16	  No_Light    FC
+   1    1    1   010100   id    N16	  No_Light    FC
+   2    1    2   010200   id    N16	  Online      FC  F-Port  51:40:2e:c0:12:cc:26:1c
+   3    1    3   010300   id    N16	  No_Light    FC
+   4    1    4   010400   id    N16	  Online      FC  F-Port  51:40:2e:c0:00:f3:cf:52
+   5    1    5   010500   id    N8 	  Online      FC  F-Port  51:40:2e:c0:01:bf:e0:f8
+   6    1    6   010600   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:8f:f8
+   7    1    7   010700   id    N16	  Online      FC  F-Port  51:40:2e:c0:11:0e:94:24
+   8    1    8   010800   id    N16	  Online      FC  F-Port  51:40:2e:c0:12:3f:0c:cc
+   9    1    9   010900   id    N16	  No_Light    FC
+  10    1   10   010a00   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:c5:a4
+  11    1   11   010b00   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:bb:a4
+  12    1   12   010c00   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:bb:f0
+  13    1   13   010d00   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:bd:60
+  14    1   14   010e00   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:f5:b9:bc
+  15    1   15   010f00   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:ba:f0
+ 128    1   16   018000   id    N16	  Online      FC  F-Port  51:40:2e:c0:00:f5:06:bc
+ 129    1   17   018100   id    N16	  Online      FC  F-Port  21:00:f4:e9:d4:51:bc:b0
+ 130    1   18   018200   id    N16	  Online      FC  F-Port  51:40:2e:c0:12:3f:55:e0
+ 131    1   19   018300   id    N16	  Online      FC  F-Port  51:40:2e:c0:12:43:57:3c
+ 132    1   20   018400   id    N16	  Online      FC  F-Port  51:40:2e:c0:12:43:b7:e4
+ 133    1   21   018500   id    N16	  Online      FC  F-Port  21:00:f4:e9:d4:57:bc:54
+ 134    1   22   018600   id    N16	  Online      FC  F-Port  51:40:2e:c0:12:43:b6:58
+ 135    1   23   018700   id    N16	  Online      FC  F-Port  51:40:2e:c0:12:43:b6:48
+ 136    1   24   018800   id    N16	  Online      FC  F-Port  51:40:2e:c0:12:43:ba:68
+ 137    1   25   018900   id    N16	  No_Light    FC
+ 138    1   26   018a00   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:1e:0c
+ 139    1   27   018b00   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:13:50
+ 140    1   28   018c00   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:1e:10
+ 141    1   29   018d00   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:13:0c
+ 142    1   30   018e00   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:28:04
+ 143    1   31   018f00   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:28:05
+ 256    1   32   018880   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:28:06
+ 257    1   33   018980   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:28:07
+ 258    1   34   018a80   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:28:08
+ 259    1   35   018b80   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:28:09
+ 260    1   36   018c80   id    N16	  No_Light    FC
+ 261    1   37   018d80   id    N16	  Online      FC  F-Port  50:06:0e:80:12:39:e0:00
+ 262    1   38   018e80   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:28:18
+ 263    1   39   018f80   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:28:19
+ 264    1   40   018080   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:28:1a
+ 265    1   41   018180   id    N16	  Online      FC  F-Port  50:00:09:75:98:01:44:04
+ 266    1   42   018280   id    N16	  Online      FC  F-Port  50:00:09:75:98:01:44:05
+ 267    1   43   018380   id    N16	  Online      FC  F-Port  50:00:09:75:98:01:44:06
+ 268    1   44   018480   id    N16	  Online      FC  F-Port  50:00:09:75:98:01:44:07
+ 269    1   45   018580   id    N16	  No_Light    FC
+ 270    1   46   018680   id    N16	  No_Light    FC
+ 271    1   47   018780   id    N16	  No_Light    FC
+  16    2    0   011000   id    N16	  No_Light    FC
+  17    2    1   011100   id    N16	  Online      FC  F-Port  21:00:34:80:0d:6e:a5:76
+  18    2    2   011200   id    N16	  Online      FC  F-Port  21:00:34:80:0d:6f:fe:f4
+  19    2    3   011300   id    N16	  Online      FC  F-Port  21:00:34:80:0d:6f:fe:ee
+  20    2    4   011400   id    N16	  Online      FC  F-Port  21:00:34:80:0d:70:04:c4
+  21    2    5   011500   id    N16	  Online      FC  F-Port  21:00:34:80:0d:6f:fe:fa
+  22    2    6   011600   id    N16	  Online      FC  F-Port  21:00:34:80:0d:6f:fe:e0
+  23    2    7   011700   id    N16	  Online      FC  F-Port  21:00:34:80:0d:6e:a4:04
+  24    2    8   011800   id    N16	  Online      FC  F-Port  21:00:34:80:0d:70:00:e2
+  25    2    9   011900   id    N16	  No_Light    FC
+  26    2   10   011a00   id    N16	  No_Light    FC
+  27    2   11   011b00   id    N16	  No_Light    FC
+  28    2   12   011c00   id    N16	  No_Light    FC
+  29    2   13   011d00   id    N16	  No_Light    FC
+  30    2   14   011e00   id    N16	  No_Light    FC
+  31    2   15   011f00   id    N16	  No_Light    FC
+ 144    2   16   019000   id    N16	  No_Light    FC
+ 145    2   17   019100   id    N16	  No_Light    FC
+ 146    2   18   019200   id    N16	  No_Light    FC
+ 147    2   19   019300   id    N16	  No_Light    FC
+ 148    2   20   019400   id    N16	  No_Light    FC
+ 149    2   21   019500   id    N16	  No_Light    FC
+ 150    2   22   019600   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:14:2c
+ 151    2   23   019700   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:14:28
+ 152    2   24   019800   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:14:20
+ 153    2   25   019900   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:1e:18
+ 154    2   26   019a00   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:20:80
+ 155    2   27   019b00   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:14:f4
+ 156    2   28   019c00   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:13:d8
+ 157    2   29   019d00   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:23:b4
+ 158    2   30   019e00   id    N16	  Online      FC  F-Port  50:00:09:75:98:05:80:04
+ 159    2   31   019f00   id    N16	  Online      FC  F-Port  50:00:09:75:98:05:80:05
+ 272    2   32   019880   id    N16	  Online      FC  F-Port  50:00:09:75:98:05:80:06
+ 273    2   33   019980   id    N16	  Online      FC  F-Port  50:00:09:75:98:05:80:07
+ 274    2   34   019a80   id    N16	  Online      FC  F-Port  50:00:09:75:98:05:80:08
+ 275    2   35   019b80   id    N16	  Online      FC  F-Port  50:00:09:75:98:05:80:09
+ 276    2   36   019c80   id    N16	  Online      FC  F-Port  50:00:09:75:98:05:80:18
+ 277    2   37   019d80   id    N16	  Online      FC  F-Port  50:00:09:75:98:05:80:19
+ 278    2   38   019e80   id    N16	  Online      FC  F-Port  50:00:09:75:98:05:90:04
+ 279    2   39   019f80   id    N16	  Online      FC  F-Port  50:00:09:75:98:05:90:05
+ 280    2   40   019080   id    N16	  Online      FC  F-Port  50:00:09:75:98:05:90:06
+ 281    2   41   019180   id    N16	  Online      FC  F-Port  50:00:09:75:98:05:90:07
+ 282    2   42   019280   id    N16	  Online      FC  F-Port  50:00:09:75:98:05:90:08
+ 283    2   43   019380   id    N16	  Online      FC  F-Port  50:00:09:75:98:05:90:09
+ 284    2   44   019480   id    N16	  Online      FC  F-Port  50:00:09:75:98:05:90:18
+ 285    2   45   019580   id    N16	  Online      FC  F-Port  50:00:09:75:98:05:90:19
+ 286    2   46   019680   id    N16	  No_Light    FC
+ 287    2   47   019780   id    N16	  No_Light    FC
+  32    3    0   012000   id    N16	  No_Light    FC
+  33    3    1   012100   id    N16	  No_Light    FC
+  34    3    2   012200   id    N16	  Online      FC  F-Port  51:40:2e:c0:12:cc:26:78
+  35    3    3   012300   id    N16	  No_Light    FC
+  36    3    4   012400   id    N16	  Online      FC  F-Port  51:40:2e:c0:00:f3:cd:24
+  37    3    5   012500   id    N8 	  Online      FC  F-Port  51:40:2e:c0:01:bf:d8:bc
+  38    3    6   012600   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:c4:c0
+  39    3    7   012700   id    N16	  Online      FC  F-Port  51:40:2e:c0:11:0e:94:04
+  40    3    8   012800   id    N16	  Online      FC  F-Port  51:40:2e:c0:12:3f:0c:fc
+  41    3    9   012900   id    N16	  No_Light    FC
+  42    3   10   012a00   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:c4:60
+  43    3   11   012b00   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:54:f4:b8
+  44    3   12   012c00   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:ba:f4
+  45    3   13   012d00   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:bc:20
+  46    3   14   012e00   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:c4:5c
+  47    3   15   012f00   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:ba:d0
+ 160    3   16   01a000   id    N16	  Online      FC  F-Port  51:40:2e:c0:00:a1:7b:4c
+ 161    3   17   01a100   id    N16	  Online      FC  F-Port  21:00:f4:e9:d4:51:bd:ec
+ 162    3   18   01a200   id    N16	  Online      FC  F-Port  51:40:2e:c0:12:3f:55:08
+ 163    3   19   01a300   id    N16	  Online      FC  F-Port  51:40:2e:c0:12:43:57:10
+ 164    3   20   01a400   id    N16	  Online      FC  F-Port  51:40:2e:c0:12:43:b6:54
+ 165    3   21   01a500   id    N16	  Online      FC  F-Port  21:00:f4:e9:d4:57:bc:50
+ 166    3   22   01a600   id    N16	  Online      FC  F-Port  51:40:2e:c0:12:43:57:36
+ 167    3   23   01a700   id    N16	  Online      FC  F-Port  51:40:2e:c0:12:43:4b:98
+ 168    3   24   01a800   id    N16	  Online      FC  F-Port  51:40:2e:c0:12:40:6b:48
+ 169    3   25   01a900   id    N16	  No_Light    FC
+ 170    3   26   01aa00   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:13:04
+ 171    3   27   01ab00   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:21:4c
+ 172    3   28   01ac00   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:14:34
+ 173    3   29   01ad00   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:20:74
+ 174    3   30   01ae00   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:24:08
+ 175    3   31   01af00   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:24:09
+ 288    3   32   01a880   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:24:0a
+ 289    3   33   01a980   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:24:18
+ 290    3   34   01aa80   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:24:19
+ 291    3   35   01ab80   id    N16	  No_Light    FC
+ 292    3   36   01ac80   id    N16	  No_Light    FC
+ 293    3   37   01ad80   id    N16	  Online      FC  F-Port  50:06:0e:80:12:39:e0:01
+ 294    3   38   01ae80   id    N16	  No_Light    FC
+ 295    3   39   01af80   id    N16	  No_Light    FC
+ 296    3   40   01a080   id    N16	  Online      FC  F-Port  50:06:01:62:47:e0:4e:b7
+ 297    3   41   01a180   id    N16	  Online      FC  F-Port  50:00:09:75:98:01:44:08
+ 298    3   42   01a280   id    N16	  Online      FC  F-Port  50:00:09:75:98:01:44:09
+ 299    3   43   01a380   id    N16	  No_Light    FC
+ 300    3   44   01a480   id    N16	  Online      FC  F-Port  50:00:09:75:98:01:44:18
+ 301    3   45   01a580   id    N16	  Online      FC  F-Port  50:00:09:75:98:01:44:19
+ 302    3   46   01a680   id    N16	  No_Light    FC
+ 303    3   47   01a780   id    N16	  No_Light    FC
+ 384    5    0   ------   --    16G	  No_Module   FC
+ 385    5    1   ------   --    16G	  No_Module   FC
+ 386    5    2   ------   --    16G	  No_Module   FC
+ 387    5    3   ------   --    16G	  No_Module   FC
+ 388    5    4   ------   --    16G	  No_Module   FC
+ 389    5    5   ------   --    16G	  No_Module   FC
+ 390    5    6   ------   --    16G	  No_Module   FC
+ 391    5    7   ------   --    16G	  No_Module   FC
+ 392    5    8   ------   --    16G	  No_Module   FC
+ 393    5    9   ------   --    16G	  No_Module   FC
+ 394    5   10   ------   --    16G	  No_Module   FC
+ 395    5   11   ------   --    16G	  No_Module   FC
+ 396    5   12   ------   --    16G	  No_Module   FC
+ 397    5   13   ------   --    16G	  No_Module   FC
+ 398    5   14   ------   --    16G	  No_Module   FC
+ 399    5   15   ------   --    16G	  No_Module   FC
+ 400    5   16   ------   --    16G	  No_Module   FC
+ 401    5   17   ------   --    16G	  No_Module   FC
+ 402    5   18   ------   --    16G	  No_Module   FC
+ 403    5   19   ------   --    16G	  No_Module   FC
+ 404    5   20   ------   --    16G	  No_Module   FC
+ 405    5   21   ------   --    16G	  No_Module   FC
+ 406    5   22   ------   --    16G	  No_Module   FC
+ 407    5   23   ------   --    16G	  No_Module   FC
+ 408    5   24   ------   --    16G	  No_Module   FC
+ 409    5   25   ------   --    16G	  No_Module   FC
+ 410    5   26   ------   --    16G	  No_Module   FC
+ 411    5   27   ------   --    16G	  No_Module   FC
+ 412    5   28   ------   --    16G	  No_Module   FC
+ 413    5   29   ------   --    16G	  No_Module   FC
+ 414    5   30   ------   --    16G	  No_Module   FC
+ 415    5   31   ------   --    16G	  No_Module   FC
+1152    5   32   ------   --    16G	  No_Module   FC
+1153    5   33   ------   --    16G	  No_Module   FC
+1154    5   34   ------   --    16G	  No_Module   FC
+1155    5   35   ------   --    16G	  No_Module   FC
+1156    5   36   ------   --    16G	  No_Module   FC
+1157    5   37   ------   --    16G	  No_Module   FC
+1158    5   38   ------   --    16G	  No_Module   FC
+1159    5   39   ------   --    16G	  No_Module   FC
+1160    5   40   ------   --    16G	  No_Module   FC
+1161    5   41   ------   --    16G	  No_Module   FC
+1162    5   42   ------   --    16G	  No_Module   FC
+1163    5   43   ------   --    16G	  No_Module   FC
+1164    5   44   ------   --    16G	  No_Module   FC
+1165    5   45   ------   --    16G	  No_Module   FC
+1166    5   46   ------   --    16G	  No_Module   FC
+1167    5   47   ------   --    16G	  No_Module   FC
+1168    5   48   ------   --    16G	  No_Module   FC
+1169    5   49   ------   --    16G	  No_Module   FC
+1170    5   50   ------   --    16G	  No_Module   FC
+1171    5   51   ------   --    16G	  No_Module   FC
+1172    5   52   ------   --    16G	  No_Module   FC
+1173    5   53   ------   --    16G	  No_Module   FC
+1174    5   54   ------   --    16G	  No_Module   FC
+1175    5   55   ------   --    16G	  No_Module   FC
+1176    5   56   ------   --    16G	  No_Module   FC
+1177    5   57   ------   --    16G	  No_Module   FC
+1178    5   58   ------   --    16G	  No_Module   FC
+1179    5   59   ------   --    16G	  No_Module   FC
+1180    5   60   ------   --    16G	  No_Module   FC
+1181    5   61   ------   --    16G	  No_Module   FC
+1182    5   62   ------   --    16G	  No_Module   FC
+1183    5   63   ------   --    16G	  No_Module   FC
+ 416    8    0   ------   --    16G	  No_Module   FC
+ 417    8    1   ------   --    16G	  No_Module   FC
+ 418    8    2   ------   --    16G	  No_Module   FC
+ 419    8    3   ------   --    16G	  No_Module   FC
+ 420    8    4   ------   --    16G	  No_Module   FC
+ 421    8    5   ------   --    16G	  No_Module   FC
+ 422    8    6   ------   --    16G	  No_Module   FC
+ 423    8    7   ------   --    16G	  No_Module   FC
+ 424    8    8   ------   --    16G	  No_Module   FC
+ 425    8    9   ------   --    16G	  No_Module   FC
+ 426    8   10   ------   --    16G	  No_Module   FC
+ 427    8   11   ------   --    16G	  No_Module   FC
+ 428    8   12   ------   --    16G	  No_Module   FC
+ 429    8   13   ------   --    16G	  No_Module   FC
+ 430    8   14   ------   --    16G	  No_Module   FC
+ 431    8   15   ------   --    16G	  No_Module   FC
+ 432    8   16   ------   --    16G	  No_Module   FC
+ 433    8   17   ------   --    16G	  No_Module   FC
+ 434    8   18   ------   --    16G	  No_Module   FC
+ 435    8   19   ------   --    16G	  No_Module   FC
+ 436    8   20   ------   --    16G	  No_Module   FC
+ 437    8   21   ------   --    16G	  No_Module   FC
+ 438    8   22   ------   --    16G	  No_Module   FC
+ 439    8   23   ------   --    16G	  No_Module   FC
+ 440    8   24   ------   --    16G	  No_Module   FC
+ 441    8   25   ------   --    16G	  No_Module   FC
+ 442    8   26   ------   --    16G	  No_Module   FC
+ 443    8   27   ------   --    16G	  No_Module   FC
+ 444    8   28   ------   --    16G	  No_Module   FC
+ 445    8   29   ------   --    16G	  No_Module   FC
+ 446    8   30   ------   --    16G	  No_Module   FC
+ 447    8   31   ------   --    16G	  No_Module   FC
+1184    8   32   ------   --    16G	  No_Module   FC
+1185    8   33   ------   --    16G	  No_Module   FC
+1186    8   34   ------   --    16G	  No_Module   FC
+1187    8   35   ------   --    16G	  No_Module   FC
+1188    8   36   ------   --    16G	  No_Module   FC
+1189    8   37   ------   --    16G	  No_Module   FC
+1190    8   38   ------   --    16G	  No_Module   FC
+1191    8   39   ------   --    16G	  No_Module   FC
+1192    8   40   ------   --    16G	  No_Module   FC
+1193    8   41   ------   --    16G	  No_Module   FC
+1194    8   42   ------   --    16G	  No_Module   FC
+1195    8   43   ------   --    16G	  No_Module   FC
+1196    8   44   ------   --    16G	  No_Module   FC
+1197    8   45   ------   --    16G	  No_Module   FC
+1198    8   46   ------   --    16G	  No_Module   FC
+1199    8   47   ------   --    16G	  No_Module   FC
+1200    8   48   ------   --    16G	  No_Module   FC
+1201    8   49   ------   --    16G	  No_Module   FC
+1202    8   50   ------   --    16G	  No_Module   FC
+1203    8   51   ------   --    16G	  No_Module   FC
+1204    8   52   ------   --    16G	  No_Module   FC
+1205    8   53   ------   --    16G	  No_Module   FC
+1206    8   54   ------   --    16G	  No_Module   FC
+1207    8   55   ------   --    16G	  No_Module   FC
+1208    8   56   ------   --    16G	  No_Module   FC
+1209    8   57   ------   --    16G	  No_Module   FC
+1210    8   58   ------   --    16G	  No_Module   FC
+1211    8   59   ------   --    16G	  No_Module   FC
+1212    8   60   ------   --    16G	  No_Module   FC
+1213    8   61   ------   --    16G	  No_Module   FC
+1214    8   62   ------   --    16G	  No_Module   FC
+1215    8   63   ------   --    16G	  No_Module   FC
+  80   10    0   015000   id    N16	  No_Light    FC
+  81   10    1   015100   id    N16	  No_Light    FC
+  82   10    2   015200   id    N8 	  Online      FC  F-Port  50:01:43:80:33:17:34:c0
+  83   10    3   015300   id    N8 	  Online      FC  F-Port  51:40:2e:c0:01:7c:56:18
+  84   10    4   015400   id    N8 	  Online      FC  F-Port  51:40:2e:c0:01:bf:e2:64
+  85   10    5   015500   id    N16	  Online      FC  F-Port  51:40:2e:c0:11:0e:9f:d0
+  86   10    6   015600   id    N16	  Online      FC  F-Port  51:40:2e:c0:00:f3:8b:60
+  87   10    7   015700   id    N16	  Online      FC  F-Port  51:40:2e:c0:11:0e:9f:d4
+  88   10    8   015800   id    N16	  Online      FC  F-Port  51:40:2e:c0:12:3f:0c:7c
+  89   10    9   015900   id    N16	  No_Light    FC
+  90   10   10   015a00   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:8f:f0
+  91   10   11   015b00   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:bc:b4
+  92   10   12   015c00   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:bc:58
+  93   10   13   015d00   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:c4:a4
+  94   10   14   015e00   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:c5:a8
+  95   10   15   015f00   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:8d:1c
+ 208   10   16   01d000   id    N8 	  Online      FC  F-Port  50:01:43:80:28:d1:0d:44
+ 209   10   17   01d100   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:bd:5c
+ 210   10   18   01d200   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:bb:44
+ 211   10   19   01d300   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:8d:a8
+ 212   10   20   01d400   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:c5:54
+ 213   10   21   01d500   id    N16	  Online      FC  F-Port  21:00:f4:e9:d4:57:99:d0
+ 214   10   22   01d600   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:7d:2c
+ 215   10   23   01d700   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:7c:8c
+ 216   10   24   01d800   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:7d:34
+ 217   10   25   01d900   id    N16	  No_Light    FC
+ 218   10   26   01da00   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:57:90
+ 219   10   27   01db00   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:54:d4
+ 220   10   28   01dc00   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:57:54
+ 221   10   29   01dd00   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:54:dc
+ 222   10   30   01de00   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:28:84
+ 223   10   31   01df00   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:28:85
+ 336   10   32   01d880   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:28:86
+ 337   10   33   01d980   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:28:87
+ 338   10   34   01da80   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:28:88
+ 339   10   35   01db80   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:28:89
+ 340   10   36   01dc80   id    N16	  No_Light    FC
+ 341   10   37   01dd80   id    N16	  Online      FC  F-Port  50:06:0e:80:12:39:e0:20
+ 342   10   38   01de80   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:28:98
+ 343   10   39   01df80   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:28:99
+ 344   10   40   01d080   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:28:9a
+ 345   10   41   01d180   id    N16	  Online      FC  F-Port  50:00:09:75:98:05:88:04
+ 346   10   42   01d280   id    N16	  Online      FC  F-Port  50:00:09:75:98:05:88:05
+ 347   10   43   01d380   id    N16	  Online      FC  F-Port  50:00:09:75:98:05:88:06
+ 348   10   44   01d480   id    N16	  Online      FC  F-Port  50:00:09:75:98:05:88:07
+ 349   10   45   01d580   id    N16	  No_Light    FC
+ 350   10   46   01d680   id    N16	  No_Light    FC
+ 351   10   47   01d780   id    N16	  No_Light    FC
+ 112   12    0   017000   id    N16	  No_Light    FC
+ 113   12    1   017100   id    N16	  No_Light    FC
+ 114   12    2   017200   id    N8 	  Online      FC  F-Port  51:40:2e:c0:01:bf:d9:18
+ 115   12    3   017300   id    N8 	  Online      FC  F-Port  51:40:2e:c0:01:bf:e0:dc
+ 116   12    4   017400   id    N16	  Online      FC  F-Port  21:00:00:24:ff:7f:63:d2
+ 117   12    5   017500   id    N16	  Online      FC  F-Port  51:40:2e:c0:11:0e:9f:d8
+ 118   12    6   017600   id    N16	  Online      FC  F-Port  51:40:2e:c0:11:10:3c:b0
+ 119   12    7   017700   id    N16	  Online      FC  F-Port  51:40:2e:c0:11:0f:ef:80
+ 120   12    8   017800   id    N16	  Online      FC  F-Port  51:40:2e:c0:12:3f:0c:d0
+ 121   12    9   017900   id    N16	  No_Light    FC
+ 122   12   10   017a00   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:c4:1c
+ 123   12   11   017b00   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:b9:bc
+ 124   12   12   017c00   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:c4:50
+ 125   12   13   017d00   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:bc:60
+ 126   12   14   017e00   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:bc:54
+ 127   12   15   017f00   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:8f:e8
+ 240   12   16   01f000   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:bd:3c
+ 241   12   17   01f100   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:8d:a4
+ 242   12   18   01f200   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:bb:1c
+ 243   12   19   01f300   id    N8 	  Online      FC  F-Port  51:40:2e:c0:00:55:8c:f0
+ 244   12   20   01f400   id    N16	  No_Light    FC
+ 245   12   21   01f500   id    N16	  Online      FC  F-Port  21:00:f4:e9:d4:57:99:58
+ 246   12   22   01f600   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:7d:30
+ 247   12   23   01f700   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:87:c4
+ 248   12   24   01f800   id    N16	  Online      FC  F-Port  51:40:2e:c0:14:82:88:60
+ 249   12   25   01f900   id    N16	  No_Light    FC
+ 250   12   26   01fa00   id    N16	  Online      FC  F-Port  51:40:2e:c0:12:43:bc:2c
+ 251   12   27   01fb00   id    N16	  Online      FC  F-Port  51:40:2e:c0:12:43:ba:5c
+ 252   12   28   01fc00   id    N16	  Online      FC  F-Port  51:40:2e:c0:12:43:c8:58
+ 253   12   29   01fd00   id    N16	  Online      FC  F-Port  51:40:2e:c0:12:43:b6:64
+ 254   12   30   01fe00   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:24:88
+ 255   12   31   01ff00   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:24:89
+ 368   12   32   01f880   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:24:8a
+ 369   12   33   01f980   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:24:98
+ 370   12   34   01fa80   id    N16	  Online      FC  F-Port  50:00:09:75:68:02:24:99
+ 371   12   35   01fb80   id    N16	  No_Light    FC
+ 372   12   36   01fc80   id    N16	  No_Light    FC
+ 373   12   37   01fd80   id    N16	  Online      FC  F-Port  50:06:0e:80:12:39:e0:21
+ 374   12   38   01fe80   id    N16	  No_Light    FC
+ 375   12   39   01ff80   id    N16	  No_Light    FC
+ 376   12   40   01f080   id    N16	  Online      FC  F-Port  50:06:01:6a:47:e0:4e:b7
+ 377   12   41   01f180   id    N16	  Online      FC  F-Port  50:00:09:75:98:05:88:08
+ 378   12   42   01f280   id    N16	  Online      FC  F-Port  50:00:09:75:98:05:88:09
+ 379   12   43   01f380   id    N16	  No_Light    FC
+ 380   12   44   01f480   id    N16	  Online      FC  F-Port  50:00:09:75:98:05:88:18
+ 381   12   45   01f580   id    N16	  Online      FC  F-Port  50:00:09:75:98:05:88:19
+ 382   12   46   01f680   id    N16	  No_Light    FC
+ 383   12   47   01f780   id    N16	  No_Light    FC
+

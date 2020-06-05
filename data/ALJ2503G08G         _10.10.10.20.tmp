@@ -1,0 +1,2677 @@
+###############################################################################
+#                                                                             #
+#   Description  : SAN Switch Port Monitor                                    #
+#   HOSTNAME     : ALJ2503G08G                                                #
+#   CONNECT IP   : 10.10.10.20                                                #
+#   EXECUTE DATE : 2020-02-18 16:10:05                                        #
+#   VERSION      : 1.1.1                                                      #
+#                                                                             #
+###############################################################################
+
+###***date***###
+Tue Feb 18 07:09:56 UTC 2020
+###***switchshow***###
+switchName:	Fsw_01
+switchType:	71.2
+switchState:	Online   
+switchMode:	Native
+switchRole:	Principal
+switchDomain:	1
+switchId:	fffc01
+switchWwn:	10:00:00:05:1e:dd:b3:c1
+zoning:		ON (SAN1_config)
+switchBeacon:	OFF
+
+Area Port Media Speed State     Proto
+=====================================
+  0   0   id    N8   Online           F-Port  10:00:00:90:fa:0b:b9:e8 
+  1   1   id    N8   Online           F-Port  10:00:00:00:c9:e7:31:e8 
+  2   2   id    N8   No_Light         
+  3   3   id    N8   No_Light         Disabled
+  4   4   id    N8   Online           F-Port  50:05:07:68:02:15:c0:81 
+  5   5   id    N8   Online           F-Port  50:05:07:68:02:15:c0:82 
+  6   6   id    N2   Online           F-Port  50:06:01:68:30:20:48:53 
+  7   7   id    N2   Online           F-Port  50:06:01:60:30:20:48:53 
+  8   8   id    N8   No_Light         
+  9   9   id    N8   No_Light         
+ 10  10   id    N8   No_Light         
+ 11  11   id    N8   No_Light         
+ 12  12   id    N8   No_Light         
+ 13  13   id    N8   No_Light         
+ 14  14   id    N8   No_Light         
+ 15  15   id    N8   No_Light         
+ 16  16   --    N8   No_Module        (No POD License) Disabled
+ 17  17   --    N8   No_Module        (No POD License) Disabled
+ 18  18   --    N8   No_Module        (No POD License) Disabled
+ 19  19   --    N8   No_Module        (No POD License) Disabled
+ 20  20   --    N8   No_Module        (No POD License) Disabled
+ 21  21   --    N8   No_Module        (No POD License) Disabled
+ 22  22   --    N8   No_Module        (No POD License) Disabled
+ 23  23   --    N8   No_Module        (No POD License) Disabled
+###***chassisshow***###
+
+POWER SUPPLY  Unit: 1	
+Time Awake:            	325 days
+
+FAN  Unit: 1	
+Time Awake:            	325 days
+
+FAN  Unit: 2	
+Time Awake:            	325 days
+
+FAN  Unit: 3	
+Time Awake:            	325 days
+
+CHASSIS/WWN  Unit: 1
+Header Version:       	2
+Factory Part Num:      	40-1000165-14
+Factory Serial Num:    	ALJ0602F04S
+Manufacture:           	Day: 27  Month: 12  Year: 2009
+Update:                	Day: 17  Month:  2  Year: 2020
+Time Alive:            	1189 days
+Time Awake:            	325 days
+ID:           		BRD0000CA
+Part Num:     		SLKWRM0000300
+Serial Num:   		1002ALJ5EM
+
+###***porterrshow***###
+        frames  enc  crc  crc   too  too  bad  enc disc link loss loss frjt fbsy
+       tx   rx   in  err g_eof shrt long  eof  out   c3 fail sync  sig
+     ============================================================================
+  0:  4.0g 2.0g   0    0    0    0    0    0  2.5k   0    0   30   31    0    0 
+  1:  3.3g 2.9g   0    0    0    0    0    0   62    0    0    1    2    0    0 
+  2:    0    0    0    0    0    0    0    0    0    0    0    0    2    0    0 
+  3:    0    0    0    0    0    0    0    0    0    0    0    0    2    0    0 
+  4:  585m 472m   0    0    0    0    0    0  2.0m  11    0    4    6    0    0 
+  5:  885m 620m   0    0    0    0    0    0  625   19    0    3    4    0    0 
+  6:  3.6g 2.1g   0    0    0    0    0    0   20   11    0    1    2    0    0 
+  7:   17m  26m   0    0    0    0    0    0   38   10    0    1    2    0    0 
+  8:    0    0    0    0    0    0    0    0    0    0    0    0    2    0    0 
+  9:    0    0    0    0    0    0    0    0    0    0    0    0    2    0    0 
+ 10:    0    0    0    0    0    0    0    0    0    0    0    0    2    0    0 
+ 11:    0    0    0    0    0    0    0    0    0    0    0    0    2    0    0 
+ 12:    0    0    0    0    0    0    0    0    0    0    0    0    2    0    0 
+ 13:    0    0    0    0    0    0    0    0    0    0    0    0    2    0    0 
+ 14:    0    0    0    0    0    0    0    0    0    0    0    0    2    0    0 
+ 15:    0    0    0    0    0    0    0    0    0    0    0    0    2    0    0 
+ 16:    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+ 17:    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+ 18:    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+ 19:    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+ 20:    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+ 21:    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+ 22:    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+ 23:    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 
+###***sfpshow -all***###
+
+=============
+Port  0:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF111180000106 
+Date Code:   110424  
+Temperature: 23 Centigrade
+Current:     6.566 mAmps
+Voltage:     3292.4 mVolts
+RX Power:    -4.6  dBm (346.6 uWatts)
+TX Power:    -3.4  dBm (459.4 uWatts)
+
+=============
+Port  1:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF11118000031K 
+Date Code:   110424  
+Temperature: 25 Centigrade
+Current:     6.646 mAmps
+Voltage:     3282.1 mVolts
+RX Power:    -2.4  dBm (572.8 uWatts)
+TX Power:    -3.3  dBm (466.5 uWatts)
+
+=============
+Port  2:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF111180000150 
+Date Code:   110424  
+Temperature: 25 Centigrade
+Current:     6.416 mAmps
+Voltage:     3286.9 mVolts
+RX Power:    -inf  dBm (0.0 uWatts)
+TX Power:    -3.4  dBm (459.0 uWatts)
+
+=============
+Port  3:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF11118000070K 
+Date Code:   110424  
+Temperature: 20 Centigrade
+Current:     0.228 mAmps
+Voltage:     3288.2 mVolts
+RX Power:    -inf  dBm (0.0 uWatts)
+TX Power:    -27.7  dBm (1.7 uWatts)
+
+=============
+Port  4:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF111180000153 
+Date Code:   110424  
+Temperature: 23 Centigrade
+Current:     6.754 mAmps
+Voltage:     3284.8 mVolts
+RX Power:    -3.2  dBm (475.0 uWatts)
+TX Power:    -3.3  dBm (467.3 uWatts)
+
+=============
+Port  5:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF11118000069C 
+Date Code:   110424  
+Temperature: 24 Centigrade
+Current:     5.220 mAmps
+Voltage:     3286.3 mVolts
+RX Power:    -3.1  dBm (487.1 uWatts)
+TX Power:    -3.4  dBm (457.8 uWatts)
+
+=============
+Port  6:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF11118000089G 
+Date Code:   110424  
+Temperature: 22 Centigrade
+Current:     5.768 mAmps
+Voltage:     3293.6 mVolts
+RX Power:    -6.3  dBm (236.9 uWatts)
+TX Power:    -3.3  dBm (466.4 uWatts)
+
+=============
+Port  7:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF11118000007L 
+Date Code:   110424  
+Temperature: 21 Centigrade
+Current:     6.450 mAmps
+Voltage:     3286.2 mVolts
+RX Power:    -6.8  dBm (207.4 uWatts)
+TX Power:    -3.3  dBm (462.4 uWatts)
+
+=============
+Port  8:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF1111800003VG 
+Date Code:   110424  
+Temperature: 23 Centigrade
+Current:     6.788 mAmps
+Voltage:     3289.5 mVolts
+RX Power:    -inf  dBm (0.0 uWatts)
+TX Power:    -3.4  dBm (462.2 uWatts)
+
+=============
+Port  9:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF1111800008A4 
+Date Code:   110424  
+Temperature: 24 Centigrade
+Current:     6.046 mAmps
+Voltage:     3284.0 mVolts
+RX Power:    -inf  dBm (0.0 uWatts)
+TX Power:    -3.3  dBm (462.4 uWatts)
+
+=============
+Port 10:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF111180000CF9 
+Date Code:   110425  
+Temperature: 22 Centigrade
+Current:     5.498 mAmps
+Voltage:     3288.9 mVolts
+RX Power:    -35.2  dBm (0.3 uWatts)
+TX Power:    -3.3  dBm (469.1 uWatts)
+
+=============
+Port 11:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF111170000GMF 
+Date Code:   110421  
+Temperature: 20 Centigrade
+Current:     6.906 mAmps
+Voltage:     3296.2 mVolts
+RX Power:    -inf  dBm (0.0 uWatts)
+TX Power:    -3.3  dBm (467.7 uWatts)
+
+=============
+Port 12:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF111180000CF4 
+Date Code:   110425  
+Temperature: 22 Centigrade
+Current:     8.498 mAmps
+Voltage:     3283.7 mVolts
+RX Power:    -inf  dBm (0.0 uWatts)
+TX Power:    -3.3  dBm (466.8 uWatts)
+
+=============
+Port 13:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF1111800000P7 
+Date Code:   110424  
+Temperature: 21 Centigrade
+Current:     5.660 mAmps
+Voltage:     3290.0 mVolts
+RX Power:    -inf  dBm (0.0 uWatts)
+TX Power:    -3.3  dBm (464.7 uWatts)
+
+=============
+Port 14:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF11118000013D 
+Date Code:   110424  
+Temperature: 19 Centigrade
+Current:     6.174 mAmps
+Voltage:     3288.0 mVolts
+RX Power:    -35.2  dBm (0.3 uWatts)
+TX Power:    -3.3  dBm (472.3 uWatts)
+
+=============
+Port 15:
+=============
+Identifier:  3    SFP
+Connector:   7    LC
+Transceiver: 540c404000000000 200,400,800_MB/s M5,M6 sw Short_dist
+Encoding:    1    8B10B
+Baud Rate:   85   (units 100 megabaud)
+Length 9u:   0    (units km)
+Length 9u:   0    (units 100 meters)
+Length 50u:  5    (units 10 meters)
+Length 62.5u:2    (units 10 meters)
+Length Cu:   0    (units 1 meter)
+Vendor Name: BROCADE         
+Vendor OUI:  00:05:1e
+Vendor PN:   57-1000012-01   
+Vendor Rev:  A   
+Wavelength:  850  (units nm)
+Options:     003a Loss_of_Sig,Tx_Fault,Tx_Disable
+BR Max:      0   
+BR Min:      0   
+Serial No:   UAF111170000CY9 
+Date Code:   110424  
+Temperature: 18 Centigrade
+Current:     6.412 mAmps
+Voltage:     3296.3 mVolts
+RX Power:    -inf  dBm (0.0 uWatts)
+TX Power:    -3.2  dBm (473.4 uWatts)
+
+=============
+Port 16:
+=============
+port 16: can't get serial data
+
+=============
+Port 17:
+=============
+port 17: can't get serial data
+
+=============
+Port 18:
+=============
+port 18: can't get serial data
+
+=============
+Port 19:
+=============
+port 19: can't get serial data
+
+=============
+Port 20:
+=============
+port 20: can't get serial data
+
+=============
+Port 21:
+=============
+port 21: can't get serial data
+
+=============
+Port 22:
+=============
+port 22: can't get serial data
+
+=============
+Port 23:
+=============
+port 23: can't get serial data
+###***errdump***###
+Fabric OS: v6.2.0c
+2020/02/14-05:59:33, [SEC-1193], 122939, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-05:59:37, [SEC-1193], 122940, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-05:59:42, [SEC-1193], 122941, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-05:59:48, [SEC-1193], 122942, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-05:59:52, [SEC-1193], 122943, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-05:59:57, [SEC-1193], 122944, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:00:02, [SEC-1193], 122945, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:00:08, [SEC-1193], 122946, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:00:12, [SEC-1193], 122947, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:00:18, [SEC-1193], 122948, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:00:22, [SEC-1193], 122949, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:00:27, [SEC-1193], 122950, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:00:33, [SEC-1193], 122951, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:00:38, [SEC-1193], 122952, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:00:43, [SEC-1193], 122953, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:00:48, [SEC-1193], 122954, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:00:53, [SEC-1193], 122955, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:00:58, [SEC-1193], 122956, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:01:03, [SEC-1193], 122957, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:01:07, [SEC-1193], 122958, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:01:12, [SEC-1193], 122959, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:01:17, [SEC-1193], 122960, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:01:21, [SEC-1193], 122961, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:01:26, [SEC-1193], 122962, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:01:31, [SEC-1193], 122963, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:01:36, [SEC-1193], 122964, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:01:40, [SEC-1193], 122965, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:01:45, [SEC-1193], 122966, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:01:50, [SEC-1193], 122967, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:01:55, [SEC-1193], 122968, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:01:59, [SEC-1193], 122969, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:02:04, [SEC-1193], 122970, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:02:09, [SEC-1193], 122971, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:02:14, [SEC-1193], 122972, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:02:19, [SEC-1193], 122973, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:02:24, [SEC-1193], 122974, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:02:29, [SEC-1193], 122975, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:02:34, [SEC-1193], 122976, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:02:39, [SEC-1193], 122977, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:02:44, [SEC-1193], 122978, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:02:49, [SEC-1193], 122979, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:02:54, [SEC-1193], 122980, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:02:59, [SEC-1193], 122981, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:03:03, [SEC-1193], 122982, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:03:09, [SEC-1193], 122983, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:03:14, [SEC-1193], 122984, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:03:19, [SEC-1193], 122985, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:03:24, [SEC-1193], 122986, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:03:29, [SEC-1193], 122987, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:03:33, [SEC-1193], 122988, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:03:38, [SEC-1193], 122989, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:03:43, [SEC-1193], 122990, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:03:48, [SEC-1193], 122991, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:03:53, [SEC-1193], 122992, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:03:58, [SEC-1193], 122993, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:04:03, [SEC-1193], 122994, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:04:09, [SEC-1193], 122995, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:04:14, [SEC-1193], 122996, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:04:19, [SEC-1193], 122997, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:04:24, [SEC-1193], 122998, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:04:29, [SEC-1193], 122999, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:04:34, [SEC-1193], 123000, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:04:40, [SEC-1193], 123001, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:04:45, [SEC-1193], 123002, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:04:50, [SEC-1193], 123003, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:04:55, [SEC-1193], 123004, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:05:01, [SEC-1193], 123005, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:05:05, [SEC-1193], 123006, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:05:11, [SEC-1193], 123007, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:05:17, [SEC-1193], 123008, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:05:23, [SEC-1193], 123009, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:05:29, [SEC-1193], 123010, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:05:34, [SEC-1193], 123011, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:05:40, [SEC-1193], 123012, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:05:46, [SEC-1193], 123013, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:05:51, [SEC-1193], 123014, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:05:57, [SEC-1193], 123015, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:06:02, [SEC-1193], 123016, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:06:06, [SEC-1193], 123017, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:06:11, [SEC-1193], 123018, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:06:17, [SEC-1193], 123019, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:06:22, [SEC-1193], 123020, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:06:27, [SEC-1193], 123021, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:06:33, [SEC-1193], 123022, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:06:38, [SEC-1193], 123023, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:06:43, [SEC-1193], 123024, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:06:48, [SEC-1193], 123025, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:06:53, [SEC-1193], 123026, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:06:59, [SEC-1193], 123027, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:07:03, [SEC-1193], 123028, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:07:09, [SEC-1193], 123029, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:07:14, [SEC-1193], 123030, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:07:19, [SEC-1193], 123031, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:07:23, [SEC-1193], 123032, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:07:28, [SEC-1193], 123033, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:07:34, [SEC-1193], 123034, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:07:38, [SEC-1193], 123035, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:07:43, [SEC-1193], 123036, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:07:48, [SEC-1193], 123037, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:07:53, [SEC-1193], 123038, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:07:58, [SEC-1193], 123039, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:08:03, [SEC-1193], 123040, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:08:08, [SEC-1193], 123041, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:08:13, [SEC-1193], 123042, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:08:18, [SEC-1193], 123043, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:08:23, [SEC-1193], 123044, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:08:28, [SEC-1193], 123045, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:08:33, [SEC-1193], 123046, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:08:38, [SEC-1193], 123047, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:08:43, [SEC-1193], 123048, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:08:48, [SEC-1193], 123049, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:08:53, [SEC-1193], 123050, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:08:58, [SEC-1193], 123051, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:09:03, [SEC-1193], 123052, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:09:07, [SEC-1193], 123053, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:09:13, [SEC-1193], 123054, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:09:17, [SEC-1193], 123055, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:09:23, [SEC-1193], 123056, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:09:28, [SEC-1193], 123057, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:09:33, [SEC-1193], 123058, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:09:38, [SEC-1193], 123059, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:09:43, [SEC-1193], 123060, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:09:48, [SEC-1193], 123061, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:09:53, [SEC-1193], 123062, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:09:58, [SEC-1193], 123063, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:10:03, [SEC-1193], 123064, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:10:08, [SEC-1193], 123065, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:10:13, [SEC-1193], 123066, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:10:19, [SEC-1193], 123067, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:10:23, [SEC-1193], 123068, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:10:28, [SEC-1193], 123069, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:10:33, [SEC-1193], 123070, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:10:39, [SEC-1193], 123071, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:10:44, [SEC-1193], 123072, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:10:49, [SEC-1193], 123073, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:10:54, [SEC-1193], 123074, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:10:59, [SEC-1193], 123075, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:11:04, [SEC-1193], 123076, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:11:10, [SEC-1193], 123077, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:11:15, [SEC-1193], 123078, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:11:20, [SEC-1193], 123079, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:11:26, [SEC-1193], 123080, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:11:31, [SEC-1193], 123081, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:11:36, [SEC-1193], 123082, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:11:41, [SEC-1193], 123083, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:11:46, [SEC-1193], 123084, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:11:51, [SEC-1193], 123085, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:11:56, [SEC-1193], 123086, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:12:01, [SEC-1193], 123087, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:12:06, [SEC-1193], 123088, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:12:12, [SEC-1193], 123089, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:12:17, [SEC-1193], 123090, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:12:22, [SEC-1193], 123091, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:12:27, [SEC-1193], 123092, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:12:32, [SEC-1193], 123093, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:12:38, [SEC-1193], 123094, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:12:42, [SEC-1193], 123095, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:12:47, [SEC-1193], 123096, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:12:52, [SEC-1193], 123097, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:12:58, [SEC-1193], 123098, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:13:03, [SEC-1193], 123099, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:13:08, [SEC-1193], 123100, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:13:13, [SEC-1193], 123101, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:13:17, [SEC-1193], 123102, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:13:23, [SEC-1193], 123103, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:13:28, [SEC-1193], 123104, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:13:34, [SEC-1193], 123105, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:13:39, [SEC-1193], 123106, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:13:44, [SEC-1193], 123107, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:13:49, [SEC-1193], 123108, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:13:53, [SEC-1193], 123109, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:13:58, [SEC-1193], 123110, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:14:03, [SEC-1193], 123111, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:14:09, [SEC-1193], 123112, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:14:13, [SEC-1193], 123113, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:14:18, [SEC-1193], 123114, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:14:23, [SEC-1193], 123115, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:14:28, [SEC-1193], 123116, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:14:33, [SEC-1193], 123117, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:14:38, [SEC-1193], 123118, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:14:43, [SEC-1193], 123119, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:14:47, [SEC-1193], 123120, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:14:52, [SEC-1193], 123121, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:14:57, [SEC-1193], 123122, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:15:02, [SEC-1193], 123123, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:15:07, [SEC-1193], 123124, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:15:12, [SEC-1193], 123125, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:15:17, [SEC-1193], 123126, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:15:22, [SEC-1193], 123127, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:15:27, [SEC-1193], 123128, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:15:32, [SEC-1193], 123129, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:15:36, [SEC-1193], 123130, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:15:41, [SEC-1193], 123131, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:15:46, [SEC-1193], 123132, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:15:51, [SEC-1193], 123133, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:15:56, [SEC-1193], 123134, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:16:01, [SEC-1193], 123135, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:16:06, [SEC-1193], 123136, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:16:11, [SEC-1193], 123137, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:16:17, [SEC-1193], 123138, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:16:22, [SEC-1193], 123139, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:16:27, [SEC-1193], 123140, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:16:32, [SEC-1193], 123141, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:16:38, [SEC-1193], 123142, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:16:43, [SEC-1193], 123143, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:16:48, [SEC-1193], 123144, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:16:52, [SEC-1193], 123145, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:16:58, [SEC-1193], 123146, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:17:03, [SEC-1193], 123147, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:17:08, [SEC-1193], 123148, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:17:13, [SEC-1193], 123149, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:17:18, [SEC-1193], 123150, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:17:23, [SEC-1193], 123151, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:17:28, [SEC-1193], 123152, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:17:34, [SEC-1193], 123153, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:17:39, [SEC-1193], 123154, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:17:44, [SEC-1193], 123155, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:17:49, [SEC-1193], 123156, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:17:54, [SEC-1193], 123157, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:18:00, [SEC-1193], 123158, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:18:05, [SEC-1193], 123159, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:18:10, [SEC-1193], 123160, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:18:15, [SEC-1193], 123161, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:18:20, [SEC-1193], 123162, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:18:26, [SEC-1193], 123163, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:18:31, [SEC-1193], 123164, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:18:35, [SEC-1193], 123165, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:18:40, [SEC-1193], 123166, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:18:46, [SEC-1193], 123167, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:18:51, [SEC-1193], 123168, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:18:56, [SEC-1193], 123169, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:19:01, [SEC-1193], 123170, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:19:06, [SEC-1193], 123171, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:19:11, [SEC-1193], 123172, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:19:16, [SEC-1193], 123173, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:19:21, [SEC-1193], 123174, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:19:26, [SEC-1193], 123175, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:19:31, [SEC-1193], 123176, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:19:36, [SEC-1193], 123177, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:19:41, [SEC-1193], 123178, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:19:46, [SEC-1193], 123179, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:19:52, [SEC-1193], 123180, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:19:56, [SEC-1193], 123181, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:20:01, [SEC-1193], 123182, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:20:06, [SEC-1193], 123183, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:20:12, [SEC-1193], 123184, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:20:16, [SEC-1193], 123185, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:20:21, [SEC-1193], 123186, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:20:27, [SEC-1193], 123187, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:20:31, [SEC-1193], 123188, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:20:36, [SEC-1193], 123189, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:20:41, [SEC-1193], 123190, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:20:46, [SEC-1193], 123191, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:20:51, [SEC-1193], 123192, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-06:20:56, [SEC-1193], 123193, FID 128, INFO, Fsw_01, Security violation: Login failure attempt via TELNET/SSH/RSH. IP Addr: 195.211.213.36
+
+2020/02/14-10:30:35, [SEC-1203], 123194, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 146.52.74.159
+
+2020/02/14-15:18:39, [TS-1001], 123195, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/14-21:14:24, [LOG-1000], 123489, CHASSIS, INFO, Brocade300, Previous message repeated 294 time(s)
+
+2020/02/14-21:15:02, [SEC-1203], 123490, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.57
+
+2020/02/14-21:15:36, [TS-1001], 123491, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/15-21:14:40, [LOG-1000], 124679, CHASSIS, INFO, Brocade300, Previous message repeated 1188 time(s)
+
+2020/02/15-21:15:01, [SEC-1203], 124680, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.57
+
+2020/02/15-21:15:53, [TS-1001], 124681, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/16-21:14:57, [LOG-1000], 125869, CHASSIS, INFO, Brocade300, Previous message repeated 1188 time(s)
+
+2020/02/16-21:14:58, [SEC-1203], 125870, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.57
+
+2020/02/16-21:16:10, [TS-1001], 125871, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/17-02:00:49, [LOG-1000], 126106, CHASSIS, INFO, Brocade300, Previous message repeated 235 time(s)
+
+2020/02/17-02:01:19, [SEC-1203], 126107, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/17-02:02:02, [TS-1001], 126108, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/17-02:05:40, [LOG-1000], 126111, CHASSIS, INFO, Brocade300, Previous message repeated 3 time(s)
+
+2020/02/17-02:06:25, [SEC-1203], 126112, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/17-02:06:53, [TS-1001], 126113, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/17-07:53:19, [LOG-1000], 126399, CHASSIS, INFO, Brocade300, Previous message repeated 286 time(s)
+
+2020/02/17-07:53:59, [SEC-1203], 126400, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/17-07:54:32, [TS-1001], 126401, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/17-21:14:01, [LOG-1000], 127061, CHASSIS, INFO, Brocade300, Previous message repeated 660 time(s)
+
+2020/02/17-21:14:56, [SEC-1203], 127062, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.57
+
+2020/02/17-21:15:14, [TS-1001], 127063, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-00:35:06, [LOG-1000], 127228, CHASSIS, INFO, Brocade300, Previous message repeated 165 time(s)
+
+2020/02/18-00:35:12, [SEC-1203], 127229, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:36:18, [TS-1001], 127230, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-00:43:35, [LOG-1000], 127236, CHASSIS, INFO, Brocade300, Previous message repeated 6 time(s)
+
+2020/02/18-00:43:40, [SEC-1203], 127237, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:43:51, [SEC-1203], 127238, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:44:00, [SEC-1203], 127239, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:44:47, [TS-1001], 127240, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-00:44:50, [SEC-1203], 127241, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:45:03, [SEC-1203], 127242, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:45:50, [SEC-1203], 127243, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:46:00, [TS-1001], 127244, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-00:46:02, [SEC-1203], 127245, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:46:50, [SEC-1203], 127246, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:47:02, [SEC-1203], 127247, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:47:13, [TS-1001], 127248, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-00:47:50, [SEC-1203], 127249, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:48:02, [SEC-1203], 127250, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:48:26, [TS-1001], 127251, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-00:48:49, [SEC-1203], 127252, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:49:01, [SEC-1203], 127253, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:49:38, [TS-1001], 127254, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-00:49:49, [SEC-1203], 127255, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:50:01, [SEC-1203], 127256, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:50:50, [SEC-1203], 127257, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:50:51, [TS-1001], 127258, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-00:51:03, [SEC-1203], 127259, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:51:49, [SEC-1203], 127260, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:52:04, [SEC-1203], 127261, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:52:04, [TS-1001], 127262, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-00:52:50, [SEC-1203], 127263, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:53:03, [SEC-1203], 127264, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:53:17, [TS-1001], 127265, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-00:53:49, [SEC-1203], 127266, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:54:02, [SEC-1203], 127267, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:54:29, [TS-1001], 127268, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-00:54:48, [SEC-1203], 127269, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:55:02, [SEC-1203], 127270, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:55:42, [TS-1001], 127271, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-00:55:46, [SEC-1203], 127272, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:56:02, [SEC-1203], 127273, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:56:45, [SEC-1203], 127274, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:56:55, [TS-1001], 127275, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-00:57:01, [SEC-1203], 127276, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:57:44, [SEC-1203], 127277, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:58:00, [SEC-1203], 127278, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:58:07, [TS-1001], 127279, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-00:58:43, [SEC-1203], 127280, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:59:00, [SEC-1203], 127281, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-00:59:20, [TS-1001], 127282, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-00:59:43, [SEC-1203], 127283, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:00:02, [SEC-1203], 127284, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:00:33, [TS-1001], 127285, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:00:42, [SEC-1203], 127286, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:01:02, [SEC-1203], 127287, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:01:42, [SEC-1203], 127288, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:01:45, [TS-1001], 127289, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:02:02, [SEC-1203], 127290, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:02:41, [SEC-1203], 127291, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:02:58, [TS-1001], 127292, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:03:01, [SEC-1203], 127293, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:03:40, [SEC-1203], 127294, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:04:00, [SEC-1203], 127295, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:04:11, [TS-1001], 127296, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:04:39, [SEC-1203], 127297, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:05:00, [SEC-1203], 127298, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:05:24, [TS-1001], 127299, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:05:39, [SEC-1203], 127300, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:05:59, [SEC-1203], 127301, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:06:36, [TS-1001], 127302, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:06:39, [SEC-1203], 127303, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:06:58, [SEC-1203], 127304, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:07:39, [SEC-1203], 127305, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:07:49, [TS-1001], 127306, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:07:58, [SEC-1203], 127307, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:08:39, [SEC-1203], 127308, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:08:58, [SEC-1203], 127309, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:09:02, [TS-1001], 127310, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:09:38, [SEC-1203], 127311, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:09:59, [SEC-1203], 127312, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:10:15, [TS-1001], 127313, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:10:37, [SEC-1203], 127314, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:11:01, [SEC-1203], 127315, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:11:28, [TS-1001], 127316, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:11:37, [SEC-1203], 127317, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:12:00, [SEC-1203], 127318, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:12:36, [SEC-1203], 127319, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:12:40, [TS-1001], 127320, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:13:00, [SEC-1203], 127321, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:13:35, [SEC-1203], 127322, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:13:53, [TS-1001], 127323, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:13:59, [SEC-1203], 127324, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:14:35, [SEC-1203], 127325, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:14:59, [SEC-1203], 127326, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:15:06, [TS-1001], 127327, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:15:35, [SEC-1203], 127328, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:15:58, [SEC-1203], 127329, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:16:18, [TS-1001], 127330, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:16:34, [SEC-1203], 127331, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:16:59, [SEC-1203], 127332, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:17:31, [TS-1001], 127333, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:17:33, [SEC-1203], 127334, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:17:58, [SEC-1203], 127335, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:18:34, [SEC-1203], 127336, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:18:44, [TS-1001], 127337, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:18:57, [SEC-1203], 127338, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:19:33, [SEC-1203], 127339, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:19:57, [SEC-1203], 127340, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:19:57, [TS-1001], 127341, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:20:33, [SEC-1203], 127342, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:20:56, [SEC-1203], 127343, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:21:10, [TS-1001], 127344, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:21:32, [SEC-1203], 127345, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:21:56, [SEC-1203], 127346, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:22:22, [TS-1001], 127347, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:22:31, [SEC-1203], 127348, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:22:55, [SEC-1203], 127349, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:23:30, [SEC-1203], 127350, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:23:35, [TS-1001], 127351, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:23:54, [SEC-1203], 127352, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:24:29, [SEC-1203], 127353, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:24:48, [TS-1001], 127354, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:24:53, [SEC-1203], 127355, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:25:28, [SEC-1203], 127356, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:25:53, [SEC-1203], 127357, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:26:01, [TS-1001], 127358, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:26:27, [SEC-1203], 127359, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:26:52, [SEC-1203], 127360, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:27:13, [TS-1001], 127361, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:27:38, [SEC-1203], 127362, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:27:52, [SEC-1203], 127363, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:28:26, [TS-1001], 127364, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:28:28, [SEC-1203], 127365, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:28:39, [SEC-1203], 127366, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:29:39, [TS-1001], 127367, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:36:55, [LOG-1000], 127373, CHASSIS, INFO, Brocade300, Previous message repeated 6 time(s)
+
+2020/02/18-01:37:32, [SEC-1203], 127374, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:38:07, [TS-1001], 127375, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:38:34, [SEC-1203], 127376, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:39:20, [TS-1001], 127377, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:40:00, [SEC-1203], 127378, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:40:33, [TS-1001], 127379, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:41:02, [SEC-1203], 127380, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:41:46, [TS-1001], 127381, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:44:11, [LOG-1000], 127383, CHASSIS, INFO, Brocade300, Previous message repeated 2 time(s)
+
+2020/02/18-01:44:31, [SEC-1203], 127384, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:45:24, [TS-1001], 127385, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:45:33, [SEC-1203], 127386, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:46:35, [SEC-1203], 127387, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:46:36, [TS-1001], 127388, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:47:37, [SEC-1203], 127389, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:47:49, [TS-1001], 127390, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:48:26, [SEC-1203], 127391, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:49:02, [TS-1001], 127392, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:49:04, [SEC-1203], 127393, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:49:51, [SEC-1203], 127394, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:50:14, [TS-1001], 127395, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:51:27, [LOG-1000], 127396, CHASSIS, INFO, Brocade300, Previous message repeated 1 time(s)
+
+2020/02/18-01:52:01, [SEC-1203], 127397, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:52:39, [SEC-1203], 127398, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:52:40, [TS-1001], 127399, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:53:41, [SEC-1203], 127400, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:53:53, [TS-1001], 127401, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:54:44, [SEC-1203], 127402, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:55:05, [TS-1001], 127403, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:55:45, [SEC-1203], 127404, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:56:18, [TS-1001], 127405, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:56:46, [SEC-1203], 127406, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:57:31, [TS-1001], 127407, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:57:48, [SEC-1203], 127408, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:58:43, [TS-1001], 127409, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-01:58:50, [SEC-1203], 127410, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:59:52, [SEC-1203], 127411, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-01:59:56, [TS-1001], 127412, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:00:53, [SEC-1203], 127413, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:01:09, [TS-1001], 127414, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:01:55, [SEC-1203], 127415, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:02:21, [TS-1001], 127416, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:02:57, [SEC-1203], 127417, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:03:34, [TS-1001], 127418, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:03:59, [SEC-1203], 127419, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:04:47, [TS-1001], 127420, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:05:01, [SEC-1203], 127421, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:06:00, [TS-1001], 127422, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:06:03, [SEC-1203], 127423, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:07:05, [SEC-1203], 127424, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:07:12, [TS-1001], 127425, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:08:08, [SEC-1203], 127426, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:08:25, [TS-1001], 127427, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:09:09, [SEC-1203], 127428, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:09:38, [TS-1001], 127429, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:10:11, [SEC-1203], 127430, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:10:50, [TS-1001], 127431, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:11:12, [SEC-1203], 127432, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:12:03, [TS-1001], 127433, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:12:14, [SEC-1203], 127434, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:13:16, [TS-1001], 127435, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:13:16, [SEC-1203], 127436, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:14:18, [SEC-1203], 127437, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:14:28, [TS-1001], 127438, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:15:20, [SEC-1203], 127439, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:15:41, [TS-1001], 127440, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:16:21, [SEC-1203], 127441, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:16:54, [TS-1001], 127442, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:17:23, [SEC-1203], 127443, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:18:07, [TS-1001], 127444, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:18:25, [SEC-1203], 127445, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:19:19, [TS-1001], 127446, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:19:27, [SEC-1203], 127447, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:20:12, [SEC-1203], 127448, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:20:29, [SEC-1203], 127449, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:20:32, [TS-1001], 127450, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:21:30, [SEC-1203], 127451, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:21:40, [SEC-1203], 127452, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:21:45, [TS-1001], 127453, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:22:23, [SEC-1203], 127454, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:22:50, [SEC-1203], 127455, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:22:58, [TS-1001], 127456, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:23:15, [SEC-1203], 127457, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:24:06, [SEC-1203], 127458, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:24:10, [TS-1001], 127459, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:24:42, [SEC-1203], 127460, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:24:58, [SEC-1203], 127461, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:25:23, [TS-1001], 127462, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:25:48, [SEC-1203], 127463, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:25:58, [SEC-1203], 127464, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:26:36, [TS-1001], 127465, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:26:38, [SEC-1203], 127466, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:26:55, [SEC-1203], 127467, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:27:29, [SEC-1203], 127468, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:27:48, [TS-1001], 127469, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:28:19, [SEC-1203], 127470, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:29:01, [TS-1001], 127471, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:29:09, [SEC-1203], 127472, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:29:59, [SEC-1203], 127473, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:30:14, [TS-1001], 127474, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:30:49, [SEC-1203], 127475, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:31:27, [TS-1001], 127476, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:31:39, [SEC-1203], 127477, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:32:29, [SEC-1203], 127478, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:32:39, [TS-1001], 127479, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:33:19, [SEC-1203], 127480, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:33:52, [TS-1001], 127481, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:34:09, [SEC-1203], 127482, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:34:59, [SEC-1203], 127483, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:35:05, [TS-1001], 127484, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:35:49, [SEC-1203], 127485, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:36:17, [TS-1001], 127486, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:36:39, [SEC-1203], 127487, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:37:29, [SEC-1203], 127488, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:37:30, [TS-1001], 127489, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:38:20, [SEC-1203], 127490, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:38:43, [TS-1001], 127491, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:39:10, [SEC-1203], 127492, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:39:56, [TS-1001], 127493, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:39:59, [SEC-1203], 127494, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:40:50, [SEC-1203], 127495, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:41:08, [TS-1001], 127496, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:41:40, [SEC-1203], 127497, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:42:21, [TS-1001], 127498, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:42:30, [SEC-1203], 127499, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:43:19, [SEC-1203], 127500, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:43:34, [TS-1001], 127501, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:44:09, [SEC-1203], 127502, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:44:46, [TS-1001], 127503, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:44:59, [SEC-1203], 127504, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:45:49, [SEC-1203], 127505, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:45:59, [TS-1001], 127506, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:46:40, [SEC-1203], 127507, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:47:12, [TS-1001], 127508, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:47:30, [SEC-1203], 127509, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:48:19, [SEC-1203], 127510, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:48:24, [TS-1001], 127511, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:49:10, [SEC-1203], 127512, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:49:37, [TS-1001], 127513, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:50:00, [SEC-1203], 127514, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:50:50, [TS-1001], 127515, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:50:50, [SEC-1203], 127516, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:51:44, [SEC-1203], 127517, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:52:03, [TS-1001], 127518, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:52:35, [SEC-1203], 127519, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:53:15, [TS-1001], 127520, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:53:25, [SEC-1203], 127521, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:54:15, [SEC-1203], 127522, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:54:28, [TS-1001], 127523, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:55:04, [SEC-1203], 127524, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:55:41, [TS-1001], 127525, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:55:55, [SEC-1203], 127526, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:56:45, [SEC-1203], 127527, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:56:53, [TS-1001], 127528, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:57:34, [SEC-1203], 127529, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:58:06, [TS-1001], 127530, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-02:58:25, [SEC-1203], 127531, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:59:15, [SEC-1203], 127532, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-02:59:19, [TS-1001], 127533, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:00:05, [SEC-1203], 127534, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:00:31, [TS-1001], 127535, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:00:55, [SEC-1203], 127536, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:01:44, [TS-1001], 127537, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:01:45, [SEC-1203], 127538, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:02:36, [SEC-1203], 127539, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:02:57, [TS-1001], 127540, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:03:27, [SEC-1203], 127541, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:04:10, [TS-1001], 127542, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:04:17, [SEC-1203], 127543, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:05:08, [SEC-1203], 127544, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:05:22, [TS-1001], 127545, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:05:58, [SEC-1203], 127546, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:06:35, [TS-1001], 127547, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:06:49, [SEC-1203], 127548, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:07:40, [SEC-1203], 127549, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:07:48, [TS-1001], 127550, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:08:30, [SEC-1203], 127551, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:09:00, [TS-1001], 127552, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:09:20, [SEC-1203], 127553, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:10:10, [SEC-1203], 127554, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:10:13, [TS-1001], 127555, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:11:01, [SEC-1203], 127556, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:11:26, [TS-1001], 127557, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:11:51, [SEC-1203], 127558, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:12:38, [TS-1001], 127559, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:12:41, [SEC-1203], 127560, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:13:30, [SEC-1203], 127561, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:13:51, [TS-1001], 127562, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:14:21, [SEC-1203], 127563, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:15:04, [TS-1001], 127564, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:15:11, [SEC-1203], 127565, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:16:01, [SEC-1203], 127566, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:16:17, [TS-1001], 127567, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:16:51, [SEC-1203], 127568, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:17:29, [TS-1001], 127569, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:17:41, [SEC-1203], 127570, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:18:32, [SEC-1203], 127571, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:18:42, [TS-1001], 127572, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:19:21, [SEC-1203], 127573, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:19:55, [TS-1001], 127574, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:20:11, [SEC-1203], 127575, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:21:02, [SEC-1203], 127576, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:21:07, [TS-1001], 127577, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:21:53, [SEC-1203], 127578, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:22:20, [TS-1001], 127579, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:22:43, [SEC-1203], 127580, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:23:33, [TS-1001], 127581, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:23:33, [SEC-1203], 127582, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:24:23, [SEC-1203], 127583, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:24:46, [TS-1001], 127584, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:25:13, [SEC-1203], 127585, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:25:58, [TS-1001], 127586, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:26:03, [SEC-1203], 127587, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:26:53, [SEC-1203], 127588, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:27:11, [TS-1001], 127589, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:27:43, [SEC-1203], 127590, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:28:24, [TS-1001], 127591, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:28:33, [SEC-1203], 127592, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:29:24, [SEC-1203], 127593, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:29:36, [TS-1001], 127594, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:30:14, [SEC-1203], 127595, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:30:49, [TS-1001], 127596, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:31:03, [SEC-1203], 127597, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:31:54, [SEC-1203], 127598, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:32:02, [TS-1001], 127599, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:32:44, [SEC-1203], 127600, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:33:14, [TS-1001], 127601, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:33:34, [SEC-1203], 127602, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:34:24, [SEC-1203], 127603, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:34:27, [TS-1001], 127604, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:35:14, [SEC-1203], 127605, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:35:40, [TS-1001], 127606, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:36:04, [SEC-1203], 127607, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:36:52, [TS-1001], 127608, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:36:54, [SEC-1203], 127609, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:37:44, [SEC-1203], 127610, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:38:05, [TS-1001], 127611, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:39:09, [SEC-1203], 127612, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:39:18, [TS-1001], 127613, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:40:01, [SEC-1203], 127614, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:40:31, [TS-1001], 127615, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:40:53, [SEC-1203], 127616, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:41:43, [TS-1001], 127617, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:41:45, [SEC-1203], 127618, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:42:37, [SEC-1203], 127619, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:42:56, [TS-1001], 127620, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:43:29, [SEC-1203], 127621, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:44:09, [TS-1001], 127622, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:44:21, [SEC-1203], 127623, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:45:13, [SEC-1203], 127624, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:45:21, [TS-1001], 127625, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:46:05, [SEC-1203], 127626, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:46:34, [TS-1001], 127627, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:46:58, [SEC-1203], 127628, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:47:47, [TS-1001], 127629, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:47:50, [SEC-1203], 127630, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:48:42, [SEC-1203], 127631, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:49:00, [TS-1001], 127632, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:49:34, [SEC-1203], 127633, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:50:12, [TS-1001], 127634, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:50:26, [SEC-1203], 127635, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:51:19, [SEC-1203], 127636, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:51:25, [TS-1001], 127637, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:52:11, [SEC-1203], 127638, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:52:38, [TS-1001], 127639, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:53:03, [SEC-1203], 127640, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:53:50, [TS-1001], 127641, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:53:55, [SEC-1203], 127642, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:54:47, [SEC-1203], 127643, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:55:03, [TS-1001], 127644, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:55:40, [SEC-1203], 127645, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:56:16, [TS-1001], 127646, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:56:32, [SEC-1203], 127647, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:57:24, [SEC-1203], 127648, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:57:28, [TS-1001], 127649, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:58:16, [SEC-1203], 127650, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:58:41, [TS-1001], 127651, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-03:59:09, [SEC-1203], 127652, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-03:59:54, [TS-1001], 127653, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:00:01, [SEC-1203], 127654, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:00:53, [SEC-1203], 127655, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:01:07, [TS-1001], 127656, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:01:46, [SEC-1203], 127657, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:02:19, [TS-1001], 127658, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:02:39, [SEC-1203], 127659, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:03:32, [TS-1001], 127660, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:03:33, [SEC-1203], 127661, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:04:27, [SEC-1203], 127662, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:04:45, [TS-1001], 127663, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:05:21, [SEC-1203], 127664, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:05:57, [TS-1001], 127665, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:06:14, [SEC-1203], 127666, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:07:08, [SEC-1203], 127667, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:07:10, [TS-1001], 127668, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:08:01, [SEC-1203], 127669, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:08:23, [TS-1001], 127670, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:08:54, [SEC-1203], 127671, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:09:36, [TS-1001], 127672, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:09:46, [SEC-1203], 127673, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:10:38, [SEC-1203], 127674, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:10:48, [TS-1001], 127675, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:11:30, [SEC-1203], 127676, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:12:01, [TS-1001], 127677, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:12:23, [SEC-1203], 127678, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:13:14, [TS-1001], 127679, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:13:16, [SEC-1203], 127680, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:14:09, [SEC-1203], 127681, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:14:26, [TS-1001], 127682, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:15:01, [SEC-1203], 127683, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:15:39, [TS-1001], 127684, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:15:53, [SEC-1203], 127685, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:16:45, [SEC-1203], 127686, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:16:52, [TS-1001], 127687, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:17:37, [SEC-1203], 127688, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:18:04, [TS-1001], 127689, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:18:30, [SEC-1203], 127690, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:19:17, [TS-1001], 127691, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:19:23, [SEC-1203], 127692, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:20:15, [SEC-1203], 127693, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:20:30, [TS-1001], 127694, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:21:07, [SEC-1203], 127695, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:21:43, [TS-1001], 127696, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:21:59, [SEC-1203], 127697, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:22:51, [SEC-1203], 127698, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:22:55, [TS-1001], 127699, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:23:44, [SEC-1203], 127700, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:24:08, [TS-1001], 127701, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:24:36, [SEC-1203], 127702, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:25:21, [TS-1001], 127703, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:25:28, [SEC-1203], 127704, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:26:20, [SEC-1203], 127705, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:26:33, [TS-1001], 127706, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:27:12, [SEC-1203], 127707, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:27:46, [TS-1001], 127708, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:28:05, [SEC-1203], 127709, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:28:58, [SEC-1203], 127710, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:28:59, [TS-1001], 127711, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:29:50, [SEC-1203], 127712, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:30:11, [TS-1001], 127713, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:30:43, [SEC-1203], 127714, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:31:24, [TS-1001], 127715, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:31:35, [SEC-1203], 127716, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:32:29, [SEC-1203], 127717, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:32:37, [TS-1001], 127718, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:33:24, [SEC-1203], 127719, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:33:50, [TS-1001], 127720, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:34:17, [SEC-1203], 127721, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:35:02, [TS-1001], 127722, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:35:09, [SEC-1203], 127723, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:36:02, [SEC-1203], 127724, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:36:15, [TS-1001], 127725, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:36:54, [SEC-1203], 127726, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:37:28, [TS-1001], 127727, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:37:47, [SEC-1203], 127728, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:38:39, [SEC-1203], 127729, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:38:40, [TS-1001], 127730, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:39:31, [SEC-1203], 127731, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:39:53, [TS-1001], 127732, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:40:23, [SEC-1203], 127733, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:41:06, [TS-1001], 127734, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:41:16, [SEC-1203], 127735, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:42:08, [SEC-1203], 127736, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:42:18, [TS-1001], 127737, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:43:00, [SEC-1203], 127738, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:43:31, [TS-1001], 127739, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:43:52, [SEC-1203], 127740, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:44:44, [TS-1001], 127741, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:44:45, [SEC-1203], 127742, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:45:37, [SEC-1203], 127743, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:45:57, [TS-1001], 127744, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:46:29, [SEC-1203], 127745, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:47:09, [TS-1001], 127746, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:47:21, [SEC-1203], 127747, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:48:13, [SEC-1203], 127748, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:48:22, [TS-1001], 127749, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:49:05, [SEC-1203], 127750, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:49:35, [TS-1001], 127751, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:49:57, [SEC-1203], 127752, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:50:47, [TS-1001], 127753, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:50:49, [SEC-1203], 127754, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:51:41, [SEC-1203], 127755, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:52:00, [TS-1001], 127756, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:52:34, [SEC-1203], 127757, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:53:13, [TS-1001], 127758, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:53:26, [SEC-1203], 127759, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:54:18, [SEC-1203], 127760, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:54:25, [TS-1001], 127761, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:55:10, [SEC-1203], 127762, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:55:38, [TS-1001], 127763, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:56:02, [SEC-1203], 127764, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:56:51, [TS-1001], 127765, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:56:55, [SEC-1203], 127766, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:57:47, [SEC-1203], 127767, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:58:04, [TS-1001], 127768, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:58:39, [SEC-1203], 127769, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-04:59:16, [TS-1001], 127770, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-04:59:31, [SEC-1203], 127771, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:00:24, [SEC-1203], 127772, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:00:29, [TS-1001], 127773, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:01:16, [SEC-1203], 127774, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:01:42, [TS-1001], 127775, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:02:08, [SEC-1203], 127776, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:02:54, [TS-1001], 127777, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:03:01, [SEC-1203], 127778, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:03:53, [SEC-1203], 127779, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:04:07, [TS-1001], 127780, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:04:45, [SEC-1203], 127781, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:05:20, [TS-1001], 127782, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:05:38, [SEC-1203], 127783, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:06:31, [SEC-1203], 127784, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:06:32, [TS-1001], 127785, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:07:24, [SEC-1203], 127786, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:07:45, [TS-1001], 127787, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:08:17, [SEC-1203], 127788, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:08:58, [TS-1001], 127789, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:09:09, [SEC-1203], 127790, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:10:02, [SEC-1203], 127791, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:10:11, [TS-1001], 127792, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:10:55, [SEC-1203], 127793, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:11:23, [TS-1001], 127794, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:11:47, [SEC-1203], 127795, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:12:36, [TS-1001], 127796, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:12:39, [SEC-1203], 127797, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:13:32, [SEC-1203], 127798, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:13:49, [TS-1001], 127799, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:14:26, [SEC-1203], 127800, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:15:01, [TS-1001], 127801, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:15:18, [SEC-1203], 127802, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:16:11, [SEC-1203], 127803, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:16:14, [TS-1001], 127804, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:17:03, [SEC-1203], 127805, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:17:27, [TS-1001], 127806, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:17:55, [SEC-1203], 127807, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:18:39, [TS-1001], 127808, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:18:48, [SEC-1203], 127809, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:19:40, [SEC-1203], 127810, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:19:52, [TS-1001], 127811, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:20:32, [SEC-1203], 127812, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:21:05, [TS-1001], 127813, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:21:24, [SEC-1203], 127814, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:22:16, [SEC-1203], 127815, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:22:18, [TS-1001], 127816, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:23:08, [SEC-1203], 127817, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:23:30, [TS-1001], 127818, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:24:01, [SEC-1203], 127819, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:24:43, [TS-1001], 127820, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:24:53, [SEC-1203], 127821, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:25:45, [SEC-1203], 127822, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:25:56, [TS-1001], 127823, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:26:37, [SEC-1203], 127824, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:27:08, [TS-1001], 127825, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:27:29, [SEC-1203], 127826, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:28:21, [TS-1001], 127827, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:28:22, [SEC-1203], 127828, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:29:14, [SEC-1203], 127829, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:29:34, [TS-1001], 127830, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:30:08, [SEC-1203], 127831, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:30:46, [TS-1001], 127832, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:31:00, [SEC-1203], 127833, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:31:53, [SEC-1203], 127834, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:31:59, [TS-1001], 127835, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:32:45, [SEC-1203], 127836, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:33:12, [TS-1001], 127837, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:33:37, [SEC-1203], 127838, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:34:25, [TS-1001], 127839, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:34:31, [SEC-1203], 127840, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:35:24, [SEC-1203], 127841, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:35:37, [TS-1001], 127842, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:36:16, [SEC-1203], 127843, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:36:50, [TS-1001], 127844, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:37:08, [SEC-1203], 127845, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:38:01, [SEC-1203], 127846, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:38:03, [TS-1001], 127847, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:38:54, [SEC-1203], 127848, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:39:15, [TS-1001], 127849, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:39:48, [SEC-1203], 127850, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:40:28, [TS-1001], 127851, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:40:41, [SEC-1203], 127852, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:41:33, [SEC-1203], 127853, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:41:41, [TS-1001], 127854, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:42:26, [SEC-1203], 127855, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:42:53, [TS-1001], 127856, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:43:18, [SEC-1203], 127857, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:44:06, [TS-1001], 127858, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:44:11, [SEC-1203], 127859, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:45:04, [SEC-1203], 127860, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:45:19, [TS-1001], 127861, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:45:56, [SEC-1203], 127862, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:46:32, [TS-1001], 127863, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:46:49, [SEC-1203], 127864, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:47:41, [SEC-1203], 127865, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:47:44, [TS-1001], 127866, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:48:34, [SEC-1203], 127867, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:48:57, [TS-1001], 127868, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:49:27, [SEC-1203], 127869, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:50:10, [TS-1001], 127870, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:50:21, [SEC-1203], 127871, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:51:14, [SEC-1203], 127872, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:51:23, [TS-1001], 127873, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:52:07, [SEC-1203], 127874, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:52:35, [TS-1001], 127875, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:52:59, [SEC-1203], 127876, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:53:48, [TS-1001], 127877, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:53:52, [SEC-1203], 127878, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:54:45, [SEC-1203], 127879, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:55:01, [TS-1001], 127880, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:55:37, [SEC-1203], 127881, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:56:13, [TS-1001], 127882, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:56:29, [SEC-1203], 127883, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:57:22, [SEC-1203], 127884, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:57:26, [TS-1001], 127885, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:58:15, [SEC-1203], 127886, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:58:39, [TS-1001], 127887, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-05:59:09, [SEC-1203], 127888, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-05:59:51, [TS-1001], 127889, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:00:03, [SEC-1203], 127890, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:00:56, [SEC-1203], 127891, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:01:04, [TS-1001], 127892, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:01:49, [SEC-1203], 127893, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:02:17, [TS-1001], 127894, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:02:42, [SEC-1203], 127895, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:03:30, [TS-1001], 127896, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:03:35, [SEC-1203], 127897, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:04:28, [SEC-1203], 127898, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:04:42, [TS-1001], 127899, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:05:21, [SEC-1203], 127900, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:05:55, [TS-1001], 127901, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:06:14, [SEC-1203], 127902, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:07:07, [SEC-1203], 127903, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:07:08, [TS-1001], 127904, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:08:01, [SEC-1203], 127905, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:08:20, [TS-1001], 127906, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:08:54, [SEC-1203], 127907, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:09:33, [TS-1001], 127908, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:09:56, [SEC-1203], 127909, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:10:46, [TS-1001], 127910, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:10:58, [SEC-1203], 127911, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:11:59, [TS-1001], 127912, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:12:00, [SEC-1203], 127913, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:13:01, [SEC-1203], 127914, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:13:11, [TS-1001], 127915, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:14:02, [SEC-1203], 127916, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:14:24, [TS-1001], 127917, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:15:07, [SEC-1203], 127918, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:15:37, [TS-1001], 127919, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:16:50, [LOG-1000], 127920, CHASSIS, INFO, Brocade300, Previous message repeated 1 time(s)
+
+2020/02/18-06:17:35, [SEC-1203], 127921, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:18:02, [TS-1001], 127922, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:19:15, [LOG-1000], 127923, CHASSIS, INFO, Brocade300, Previous message repeated 1 time(s)
+
+2020/02/18-06:19:55, [SEC-1203], 127924, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:20:28, [TS-1001], 127925, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:21:40, [LOG-1000], 127926, CHASSIS, INFO, Brocade300, Previous message repeated 1 time(s)
+
+2020/02/18-06:22:15, [SEC-1203], 127927, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:22:53, [TS-1001], 127928, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:24:06, [LOG-1000], 127929, CHASSIS, INFO, Brocade300, Previous message repeated 1 time(s)
+
+2020/02/18-06:24:35, [SEC-1203], 127930, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:25:18, [TS-1001], 127931, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:26:31, [LOG-1000], 127932, CHASSIS, INFO, Brocade300, Previous message repeated 1 time(s)
+
+2020/02/18-06:26:52, [SEC-1203], 127933, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:27:44, [TS-1001], 127934, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:28:56, [LOG-1000], 127935, CHASSIS, INFO, Brocade300, Previous message repeated 1 time(s)
+
+2020/02/18-06:29:12, [SEC-1203], 127936, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:30:09, [TS-1001], 127937, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:31:22, [LOG-1000], 127938, CHASSIS, INFO, Brocade300, Previous message repeated 1 time(s)
+
+2020/02/18-06:31:34, [SEC-1203], 127939, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:32:34, [TS-1001], 127940, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:33:47, [LOG-1000], 127941, CHASSIS, INFO, Brocade300, Previous message repeated 1 time(s)
+
+2020/02/18-06:33:55, [SEC-1203], 127942, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:35:00, [TS-1001], 127943, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:36:13, [LOG-1000], 127944, CHASSIS, INFO, Brocade300, Previous message repeated 1 time(s)
+
+2020/02/18-06:36:19, [SEC-1203], 127945, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:37:25, [TS-1001], 127946, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:38:38, [LOG-1000], 127947, CHASSIS, INFO, Brocade300, Previous message repeated 1 time(s)
+
+2020/02/18-06:38:45, [SEC-1203], 127948, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:39:51, [TS-1001], 127949, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:41:03, [LOG-1000], 127950, CHASSIS, INFO, Brocade300, Previous message repeated 1 time(s)
+
+2020/02/18-06:41:09, [SEC-1203], 127951, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:42:16, [TS-1001], 127952, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:43:29, [LOG-1000], 127953, CHASSIS, INFO, Brocade300, Previous message repeated 1 time(s)
+
+2020/02/18-06:43:35, [SEC-1203], 127954, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:44:41, [TS-1001], 127955, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:45:54, [LOG-1000], 127956, CHASSIS, INFO, Brocade300, Previous message repeated 1 time(s)
+
+2020/02/18-06:46:00, [SEC-1203], 127957, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:47:07, [TS-1001], 127958, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:48:20, [LOG-1000], 127959, CHASSIS, INFO, Brocade300, Previous message repeated 1 time(s)
+
+2020/02/18-06:48:27, [SEC-1203], 127960, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:49:32, [TS-1001], 127961, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:50:45, [LOG-1000], 127962, CHASSIS, INFO, Brocade300, Previous message repeated 1 time(s)
+
+2020/02/18-06:50:55, [SEC-1203], 127963, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:51:58, [TS-1001], 127964, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:53:10, [LOG-1000], 127965, CHASSIS, INFO, Brocade300, Previous message repeated 1 time(s)
+
+2020/02/18-06:53:22, [SEC-1203], 127966, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:54:23, [TS-1001], 127967, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:55:36, [LOG-1000], 127968, CHASSIS, INFO, Brocade300, Previous message repeated 1 time(s)
+
+2020/02/18-06:55:48, [SEC-1203], 127969, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:56:48, [TS-1001], 127970, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-06:58:01, [LOG-1000], 127971, CHASSIS, INFO, Brocade300, Previous message repeated 1 time(s)
+
+2020/02/18-06:59:05, [SEC-1203], 127972, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-06:59:14, [TS-1001], 127973, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-07:00:27, [LOG-1000], 127974, CHASSIS, INFO, Brocade300, Previous message repeated 1 time(s)
+
+2020/02/18-07:01:38, [SEC-1203], 127975, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-07:01:40, [TS-1001], 127976, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-07:04:05, [LOG-1000], 127978, CHASSIS, INFO, Brocade300, Previous message repeated 2 time(s)
+
+2020/02/18-07:04:27, [SEC-1203], 127979, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-07:05:18, [TS-1001], 127980, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-07:06:30, [LOG-1000], 127981, CHASSIS, INFO, Brocade300, Previous message repeated 1 time(s)
+
+2020/02/18-07:07:24, [SEC-1203], 127982, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+2020/02/18-07:07:43, [TS-1001], 127983, CHASSIS, WARNING, Brocade300, NTP Query failed: 256
+
+2020/02/18-07:08:56, [LOG-1000], 127984, CHASSIS, INFO, Brocade300, Previous message repeated 1 time(s)
+
+2020/02/18-07:09:51, [SEC-1203], 127985, FID 128, INFO, Fsw_01, Login information: Login successful via TELNET/SSH/RSH. IP Addr: 10.10.10.68
+
+###***portperfshow***###
+   0    1    2    3    4    5    6    7    8    9   10   11   12   13   14   15 
+================================================================================
+ 956k  60k   0    0  296  200  1.0m   0    0    0    0    0    0    0    0    0 
+
+  16   17   18   19   20   21   22   23  Total
+==============================================
+   0    0    0    0    0    0    0    0  2.0m
+
+
+
+
+###############################################################################
+###############################################################################
+###########  END : 2020-02-18 16:10:14
+###############################################################################
+###############################################################################
+

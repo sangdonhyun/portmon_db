@@ -1,0 +1,51 @@
+###############################################################################
+#                                                                             #
+#   Description  : SAN Switch Port Monitor                                    #
+#   HOSTNAME     : ALJ2503G08G                                                #
+#   CONNECT IP   : 10.10.10.20                                                #
+#   EXECUTE DATE : 2020-02-19 09:12:00                                        #
+#   VERSION      : 1.1.1                                                      #
+#                                                                             #
+###############################################################################
+
+###***date***###
+Wed Feb 19 00:11:50 UTC 2020
+###***switchshow***###
+switchName:	Fsw_01
+switchType:	71.2
+switchState:	Online   
+switchMode:	Native
+switchRole:	Principal
+switchDomain:	1
+switchId:	fffc01
+switchWwn:	10:00:00:05:1e:dd:b3:c1
+zoning:		ON (SAN1_config)
+switchBeacon:	OFF
+
+Area Port Media Speed State     Proto
+=====================================
+  0   0   id    N8   Online           F-Port  10:00:00:90:fa:0b:b9:e8 
+  1   1   id    N8   Online           F-Port  10:00:00:00:c9:e7:31:e8 
+  2   2   id    N8   No_Light         
+  3   3   id    N8   No_Light         Disabled
+  4   4   id    N8   Online           F-Port  50:05:07:68:02:15:c0:81 
+  5   5   id    N8   Online           F-Port  50:05:07:68:02:15:c0:82 
+  6   6   id    N2   Online           F-Port  50:06:01:68:30:20:48:53 
+  7   7   id    N2   Online           F-Port  50:06:01:60:30:20:48:53 
+  8   8   id    N8   No_Light         
+  9   9   id    N8   No_Light         
+ 10  10   id    N8   No_Light         
+ 11  11   id    N8   No_Light         
+ 12  12   id    N8   No_Light         
+ 13  13   id    N8   No_Light         
+ 14  14   id    N8   No_Light         
+ 15  15   id    N8   No_Light         
+ 16  16   --    N8   No_Module        (No POD License) Disabled
+ 17  17   --    N8   No_Module        (No POD License) Disabled
+ 18  18   --    N8   No_Module        (No POD License) Disabled
+ 19  19   --    N8   No_Module        (No POD License) Disabled
+ 20  20   --    N8   No_Module        (No POD License) Disabled
+ 21  21   --    N8   No_Module        (No POD License) Disabled
+ 22  22   --    N8   No_Module        (No POD License) Disabled
+ 23  23   --    N8   No_Module        (No POD License) Disabled
+###***chassisshow***###
